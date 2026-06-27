@@ -24,7 +24,8 @@ paired with a repayment trigger.
 - Debt: Most files are not production-quality standards yet and do not satisfy
   the AI-OS documentation completion rules. Phase 2 repaid the first ten topic
   documents: five anti-patterns and five smells. Phase 3 repaid the remaining
-  smell files and the code and architecture review checklists.
+  smell files and the code and architecture review checklists. Phase 4 repaid
+  ten engineering principle documents.
 - Risk: Future agents may mistake skeletal pages for authoritative guidance.
 - Owner: Technical Writer.
 - Repayment trigger: Each topic must be expanded before it is referenced as a

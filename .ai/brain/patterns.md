@@ -31,3 +31,16 @@ AI-assisted modernization.
   indexes before recommending implementation changes.
 - Owner: Reviewer.
 - Review trigger: Revisit when prompt templates are expanded.
+
+## 2026-06-27 - Principles Explain Review Findings
+
+- Context: Phase 4 completed the first engineering principle pack.
+- Decision: Review findings should cite both the concrete smell or anti-pattern
+  and the engineering principle that explains the design trade-off when useful.
+- Rationale: Smell and anti-pattern documents classify the issue; principles
+  explain why the remediation is the right design move.
+- Impact: Future checklists, prompts, and reviews should pair findings such as
+  duplicate code with DRY, hidden side effects with dependency injection and
+  fail fast, and feature envy with Tell, Don't Ask or Law of Demeter.
+- Owner: Software Architect.
+- Review trigger: Revisit when `engineering/README.md` is created.

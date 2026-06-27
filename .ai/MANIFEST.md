@@ -6,6 +6,25 @@ primary owner role, and the quality gates that apply before changes are accepted
 
 ## Phase Status
 
+### Phase 4 Scope
+
+Phase 4 completes the first engineering principle pack:
+
+- DRY;
+- KISS;
+- YAGNI;
+- SOLID;
+- Dependency Injection;
+- High Cohesion and Low Coupling;
+- Composition over Inheritance;
+- Fail Fast;
+- Law of Demeter;
+- Tell, Don't Ask.
+
+These standards provide the design rationale behind the completed review pack
+and are now usable as source-of-truth references during code and architecture
+review.
+
 ### Phase 3 Scope
 
 Phase 3 completes the first maintainability review pack:
@@ -121,6 +140,16 @@ expanded in a later phase.
 | Smell Review Index | `smells/README.md` | Phase 3 |
 | Code Review Checklist | `checklists/code-review.md` | Phase 3 |
 | Architecture Review Checklist | `checklists/architecture-review.md` | Phase 3 |
+| DRY | `engineering/dry.md` | Phase 4 |
+| KISS | `engineering/kiss.md` | Phase 4 |
+| YAGNI | `engineering/yagni.md` | Phase 4 |
+| SOLID | `engineering/solid.md` | Phase 4 |
+| Dependency Injection | `engineering/dependency-injection.md` | Phase 4 |
+| High Cohesion and Low Coupling | `engineering/high-cohesion-low-coupling.md` | Phase 4 |
+| Composition over Inheritance | `engineering/composition-over-inheritance.md` | Phase 4 |
+| Fail Fast | `engineering/fail-fast.md` | Phase 4 |
+| Law of Demeter | `engineering/law-of-demeter.md` | Phase 4 |
+| Tell, Don't Ask | `engineering/tell-dont-ask.md` | Phase 4 |
 
 ## Change Control
 
