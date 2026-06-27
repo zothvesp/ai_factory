@@ -1,40 +1,44 @@
 # Next Task
 
-## Phase 3 Recommendation
+## Phase 4 Recommendation
 
-Complete the remaining smell standards and establish the shared review index for
-anti-pattern and smell detection.
+Expand the engineering principle standards that underpin the completed review
+pack.
 
 Recommended files:
 
-- `smells/data-clumps.md`
-- `smells/dead-code.md`
-- `smells/feature-envy.md`
-- `smells/shotgun-surgery.md`
-- `anti-patterns/README.md`
-- `smells/README.md`
-- `checklists/code-review.md`
-- `checklists/architecture-review.md`
+- `engineering/dry.md`
+- `engineering/kiss.md`
+- `engineering/yagni.md`
+- `engineering/solid.md`
+- `engineering/dependency-injection.md`
+- `engineering/high-cohesion-low-coupling.md`
+- `engineering/composition-over-inheritance.md`
+- `engineering/fail-fast.md`
+- `engineering/law-of-demeter.md`
+- `engineering/tell-dont-ask.md`
 
 ## Goal
 
-Create a complete first review pack for maintainability findings so AI agents
-can classify issues consistently, select the right remediation strategy, and
-avoid duplicating guidance across individual standards.
+Create production-quality engineering principle standards that explain the
+rationale behind the review pack and give AI agents consistent guidance for
+design decisions, refactoring, and code review trade-offs.
 
 ## Entry Criteria
 
-- Phase 2 reviewed or accepted.
+- Phase 3 reviewed or accepted.
 - Architecture Constitution remains the source of truth for mandatory design
   rules.
-- Phase 2 anti-pattern and smell documents remain the examples for document
-  completeness.
+- Completed anti-pattern, smell, code review, and architecture review documents
+  remain the examples for document completeness.
 
 ## Exit Criteria
 
-- Remaining smell documents are complete.
-- Anti-pattern and smell index files summarize detection, severity, and routing.
-- Code and architecture review checklists reference the completed standards.
+- Selected engineering principle documents are complete.
+- Each principle includes philosophy, explanation, good and bad examples,
+  decision guidance, AI guidance, review checklist, and references.
+- Code review and architecture review checklists remain aligned with the
+  completed principles.
 - Project Brain records any newly discovered rules, recurring modernization
   risks, or remaining debt.
 - `MANIFEST.md`, `PROJECT_STATE.md`, `NEXT_TASK.md`, and `CHANGELOG.md` are

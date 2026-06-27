@@ -6,6 +6,22 @@ All notable changes to the AI Engineering Operating System are recorded here.
 
 ### Added
 
+- Production smell standards for data clumps, dead code, feature envy, and
+  shotgun surgery.
+- Anti-pattern and smell review indexes with severity models and routing
+  decision trees.
+- Production code review and architecture review checklists.
+- Phase 3 manifest completion entries.
+
+### Changed
+
+- Updated Project Brain and phase state for maintainability review-pack closure.
+- Updated next task to prioritize engineering principle standards.
+
+## 2026-06-27 - Phase 2
+
+### Added
+
 - Production anti-pattern standards for circular dependencies, service locator,
   magic values, tight coupling, and singleton abuse.
 - Production code smell standards for duplicate code, long method, god class,

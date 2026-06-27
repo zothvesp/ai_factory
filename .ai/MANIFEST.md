@@ -6,6 +6,19 @@ primary owner role, and the quality gates that apply before changes are accepted
 
 ## Phase Status
 
+### Phase 3 Scope
+
+Phase 3 completes the first maintainability review pack:
+
+- remaining smell standards for data clumps, dead code, feature envy, and
+  shotgun surgery;
+- anti-pattern and smell index pages with severity and routing guidance;
+- production code review and architecture review checklists linked to completed
+  standards.
+
+The anti-pattern and smell areas now have enough complete guidance to support
+consistent AI code review and architecture review findings.
+
 ### Phase 2 Scope
 
 Phase 2 completes the first production-quality anti-pattern and smell standards:
@@ -100,6 +113,14 @@ expanded in a later phase.
 | God Class | `smells/god-class.md` | Phase 2 |
 | Primitive Obsession | `smells/primitive-obsession.md` | Phase 2 |
 | Hidden Side Effects | `smells/hidden-side-effects.md` | Phase 2 |
+| Data Clumps | `smells/data-clumps.md` | Phase 3 |
+| Dead Code | `smells/dead-code.md` | Phase 3 |
+| Feature Envy | `smells/feature-envy.md` | Phase 3 |
+| Shotgun Surgery | `smells/shotgun-surgery.md` | Phase 3 |
+| Anti-Pattern Review Index | `anti-patterns/README.md` | Phase 3 |
+| Smell Review Index | `smells/README.md` | Phase 3 |
+| Code Review Checklist | `checklists/code-review.md` | Phase 3 |
+| Architecture Review Checklist | `checklists/architecture-review.md` | Phase 3 |
 
 ## Change Control
 
