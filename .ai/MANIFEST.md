@@ -4,7 +4,28 @@ This manifest is the inventory and ownership map for the AI Engineering
 Operating System. It records the purpose of each documentation domain, the
 primary owner role, and the quality gates that apply before changes are accepted.
 
-## Phase 1 Scope
+## Phase Status
+
+### Phase 2 Scope
+
+Phase 2 completes the first production-quality anti-pattern and smell standards:
+
+- circular dependencies;
+- service locator;
+- magic values;
+- tight coupling;
+- singleton abuse;
+- duplicate code;
+- long method;
+- god class;
+- primitive obsession;
+- hidden side effects.
+
+These documents are now usable as review inputs for legacy Python
+modernization. Remaining skeletal anti-pattern and smell files stay in the
+modernization backlog until expanded with the same completion rules.
+
+### Phase 1 Scope
 
 Phase 1 establishes the governing spine of the AI-OS:
 
@@ -59,6 +80,26 @@ A document is complete when it contains:
 Documents that only contain headings are not accepted as complete production
 documents. Existing skeletal documents are tracked as modernization backlog until
 expanded in a later phase.
+
+## Completed Standards
+
+| Standard | Path | Completed |
+| --- | --- | --- |
+| Architecture Constitution | `architecture/constitution.md` | Phase 1 |
+| Goal Engineering | `goals/goal-engineering.md` | Phase 1 |
+| Engineering Loops | `loops/README.md` | Phase 1 |
+| AI Role Model | `agents/README.md` | Phase 1 |
+| Project Brain Operating Model | `brain/README.md` | Phase 1 |
+| Circular Dependencies | `anti-patterns/circular-dependencies.md` | Phase 2 |
+| Service Locator | `anti-patterns/service-locator.md` | Phase 2 |
+| Magic Values | `anti-patterns/magic-values.md` | Phase 2 |
+| Tight Coupling | `anti-patterns/tight-coupling.md` | Phase 2 |
+| Singleton Abuse | `anti-patterns/singleton-abuse.md` | Phase 2 |
+| Duplicate Code | `smells/duplicate-code.md` | Phase 2 |
+| Long Method | `smells/long-method.md` | Phase 2 |
+| God Class | `smells/god-class.md` | Phase 2 |
+| Primitive Obsession | `smells/primitive-obsession.md` | Phase 2 |
+| Hidden Side Effects | `smells/hidden-side-effects.md` | Phase 2 |
 
 ## Change Control
 

@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-Phase 1: AI-OS governing spine.
+Phase 2: Anti-pattern and code smell standards.
 
 ## Status
 
@@ -10,24 +10,25 @@ Ready for review.
 
 ## Completed
 
-- Established the root operating contract in `README.md`.
-- Created the AI-OS manifest and domain ownership map.
-- Replaced the skeletal architecture constitution with enforceable rules,
-  exception handling, and review gates.
-- Defined the Goal Engineering framework for discovery, decomposition,
-  acceptance, metrics, risks, and closure.
-- Added the engineering loop index and common loop contract.
-- Added the AI role model covering executive, product, architecture,
-  engineering, database, security, QA, performance, documentation, review, and
-  release responsibilities.
-- Added Project Brain operating rules for durable knowledge capture.
-- Created phase state, next task, and changelog documents.
+- Completed Phase 1 governing spine.
+- Expanded five anti-pattern standards into production-quality guidance:
+  circular dependencies, service locator, magic values, tight coupling, and
+  singleton abuse.
+- Expanded five code smell standards into production-quality guidance:
+  duplicate code, long method, god class, primitive obsession, and hidden side
+  effects.
+- Added examples, decision trees, refactoring strategies, AI guidance, review
+  checklists, and references for each completed Phase 2 topic.
+- Updated Project Brain with recurring modernization rules, anti-pattern
+  guidance, and remaining documentation debt.
+- Updated manifest, next task, and changelog for Phase 2 closure.
 
 ## Evidence
 
 - Documentation is organized under `.ai/`.
 - Phase files exist: `README.md`, `MANIFEST.md`, `PROJECT_STATE.md`,
   `NEXT_TASK.md`, and `CHANGELOG.md`.
+- Phase 2 completed standards are listed in `MANIFEST.md`.
 - The Git remote target is `git@github.com:zothvesp/ai_factory.git`.
 
 ## Known Constraints
@@ -41,7 +42,8 @@ Ready for review.
 
 ## Review Questions
 
-- Should Phase 2 prioritize anti-patterns and smells, or the AI role files that
-  currently exist as individual skeletal pages?
+- Should Phase 3 complete the remaining smell and anti-pattern documents, or
+  switch to engineering principle standards such as DRY, KISS, SOLID, and
+  dependency injection?
 - Should the legacy application source files remain in this repository, or
   should the AI-OS be separated into a documentation-only repository?

@@ -21,8 +21,9 @@ paired with a repayment trigger.
 
 - Context: The repository already contains many `.ai` topic files with only
   generic section headings.
-- Debt: Those files are not production-quality standards yet and do not satisfy
-  the AI-OS documentation completion rules.
+- Debt: Most files are not production-quality standards yet and do not satisfy
+  the AI-OS documentation completion rules. Phase 2 repaid the first ten topic
+  documents: five anti-patterns and five smells.
 - Risk: Future agents may mistake skeletal pages for authoritative guidance.
 - Owner: Technical Writer.
 - Repayment trigger: Each topic must be expanded before it is referenced as a

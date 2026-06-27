@@ -6,6 +6,22 @@ All notable changes to the AI Engineering Operating System are recorded here.
 
 ### Added
 
+- Production anti-pattern standards for circular dependencies, service locator,
+  magic values, tight coupling, and singleton abuse.
+- Production code smell standards for duplicate code, long method, god class,
+  primitive obsession, and hidden side effects.
+- Phase 2 manifest completion table.
+- Project Brain entries for completed modernization rules and remaining debt.
+
+### Changed
+
+- Updated project state and next task for Phase 2 closure and Phase 3
+  continuation.
+
+## 2026-06-27 - Phase 1
+
+### Added
+
 - Root AI-OS operating contract and task flow.
 - Documentation manifest with ownership and quality gates.
 - Project state tracking.
