@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-Phase 7: Python implementation standards.
+Phase 8: Python standards reference set.
 
 ## Status
 
@@ -63,13 +63,21 @@ Ready for review.
 - Updated Project Brain with the typed, tested, observable Python modernization
   rule and reduced the documentation debt scope.
 - Updated manifest, next task, and changelog for Phase 7 closure.
+- Added the Python standards index with severity model, routing decision tree,
+  and review usage guidance.
+- Expanded Pydantic v2, SQLAlchemy 2.x, FastAPI Python usage, and pathlib into
+  production-quality standards.
+- Completed all Python standard files currently present in the repository.
+- Updated Project Brain with Python boundary and persistence routing guidance
+  and reduced the documentation debt scope.
+- Updated manifest, next task, and changelog for Phase 8 closure.
 
 ## Evidence
 
 - Documentation is organized under `.ai/`.
 - Phase files exist: `README.md`, `MANIFEST.md`, `PROJECT_STATE.md`,
   `NEXT_TASK.md`, and `CHANGELOG.md`.
-- Phase 2 through Phase 7 completed standards are listed in `MANIFEST.md`.
+- Phase 2 through Phase 8 completed standards are listed in `MANIFEST.md`.
 - Code review and architecture review now route maintainability findings through
   completed smell and anti-pattern indexes.
 - Engineering principle documents now explain the rationale behind core review
@@ -80,6 +88,9 @@ Ready for review.
   the main AI engineering organization roles.
 - Python standards now define implementation expectations for typing, tests,
   linting, exceptions, logging, and async behavior.
+- `python/README.md` now routes Python implementation decisions across boundary
+  models, persistence, framework usage, paths, typing, tests, logging, errors,
+  and async.
 - The Git remote target is `git@github.com:zothvesp/ai_factory.git`.
 
 ## Known Constraints
@@ -88,13 +99,13 @@ Ready for review.
   Git metadata cannot be stored at `.git`. Publishing must use an external Git
   directory unless the filesystem mount is changed.
 - Many pre-existing documents outside completed governance, role, review, smell,
-  anti-pattern, engineering principle, and first Python implementation packs
-  remain skeletal backlog items. They are not treated as completed standards
-  until expanded according to the manifest completion rules.
+  anti-pattern, engineering principle, and Python packs remain skeletal backlog
+  items. They are not treated as completed standards until expanded according to
+  the manifest completion rules.
 
 ## Review Questions
 
-- Should Phase 8 complete the remaining Python data/framework standards or move
-  into FastAPI API standards?
+- Should Phase 9 complete FastAPI API standards or move into domain modeling
+  standards?
 - Should the legacy application source files remain in this repository, or
   should the AI-OS be separated into a documentation-only repository?

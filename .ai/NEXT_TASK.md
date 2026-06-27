@@ -1,26 +1,32 @@
 # Next Task
 
-## Phase 8 Recommendation
+## Phase 9 Recommendation
 
-Complete the remaining Python data and framework-adjacent standards.
+Expand the FastAPI API standards that define HTTP boundaries, validation,
+errors, pagination, filtering, auth, OpenAPI, middleware, and versioning.
 
 Recommended files:
 
-- `python/pydantic-v2.md`
-- `python/sqlalchemy2.md`
-- `python/fastapi.md`
-- `python/pathlib.md`
-- `python/README.md`
+- `fastapi/routers.md`
+- `fastapi/dependencies.md`
+- `fastapi/validation.md`
+- `fastapi/errors.md`
+- `fastapi/auth.md`
+- `fastapi/pagination.md`
+- `fastapi/filtering.md`
+- `fastapi/openapi.md`
+- `fastapi/middleware.md`
+- `fastapi/versioning.md`
+- `fastapi/README.md`
 
 ## Goal
 
-Create production-quality standards for Python boundary models, persistence,
-framework usage, path handling, and a Python standards index that routes backend
-implementation decisions.
+Create production-quality FastAPI API standards that keep HTTP transport thin,
+secure, documented, versioned, observable, and aligned with Clean Architecture.
 
 ## Entry Criteria
 
-- Phase 7 reviewed or accepted.
+- Phase 8 reviewed or accepted.
 - Architecture Constitution remains the source of truth for mandatory design
   rules.
 - Backend Engineer, Reviewer, QA Engineer, and Software Architect playbooks are
@@ -30,13 +36,13 @@ implementation decisions.
 
 ## Exit Criteria
 
-- Each selected Python standard is complete.
-- `python/README.md` provides routing, severity, and review usage guidance for
-  completed Python standards.
+- Each selected FastAPI standard is complete.
+- `fastapi/README.md` provides routing, severity, and review usage guidance for
+  FastAPI API standards.
 - Each standard includes philosophy, rules, good and bad examples, decision
   guidance, AI guidance, review checklist, and references.
-- Code review and Backend Engineer playbooks remain aligned with the Python
-  standards.
+- Code review, Backend Engineer, Security Engineer, and Software Architect
+  playbooks remain aligned with the FastAPI standards.
 - Project Brain records any newly discovered rules, recurring modernization
   risks, or remaining debt.
 - `MANIFEST.md`, `PROJECT_STATE.md`, `NEXT_TASK.md`, and `CHANGELOG.md` are

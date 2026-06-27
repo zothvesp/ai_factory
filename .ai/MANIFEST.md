@@ -6,6 +6,19 @@ primary owner role, and the quality gates that apply before changes are accepted
 
 ## Phase Status
 
+### Phase 8 Scope
+
+Phase 8 completes the Python standards reference set:
+
+- Python standards index;
+- Pydantic v2;
+- SQLAlchemy 2.x;
+- FastAPI usage from the Python perspective;
+- pathlib.
+
+The Python standards area now has routing guidance and complete standards for
+all Python files currently in the repository.
+
 ### Phase 7 Scope
 
 Phase 7 completes the first Python implementation standards pack:
@@ -218,6 +231,11 @@ expanded in a later phase.
 | Exceptions | `python/exceptions.md` | Phase 7 |
 | Logging | `python/logging.md` | Phase 7 |
 | AsyncIO | `python/async.md` | Phase 7 |
+| Python Standards Index | `python/README.md` | Phase 8 |
+| Pydantic v2 | `python/pydantic-v2.md` | Phase 8 |
+| SQLAlchemy 2.x | `python/sqlalchemy2.md` | Phase 8 |
+| FastAPI Python Usage | `python/fastapi.md` | Phase 8 |
+| pathlib | `python/pathlib.md` | Phase 8 |
 
 ## Change Control
 

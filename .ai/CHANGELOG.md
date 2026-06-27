@@ -6,6 +6,21 @@ All notable changes to the AI Engineering Operating System are recorded here.
 
 ### Added
 
+- Python standards index with routing, severity, and review usage guidance.
+- Production Python standards for Pydantic v2, SQLAlchemy 2.x, FastAPI usage,
+  and pathlib.
+- Phase 8 manifest completion entries.
+
+### Changed
+
+- Updated Project Brain and phase state for Python standards reference set
+  closure.
+- Updated next task to prioritize FastAPI API standards.
+
+## 2026-06-27 - Phase 7
+
+### Added
+
 - Production Python implementation standards for Python 3.13+, typing, mypy,
   Ruff, pytest, exceptions, logging, and AsyncIO.
 - Phase 7 manifest completion entries.

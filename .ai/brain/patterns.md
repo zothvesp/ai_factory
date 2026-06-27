@@ -85,3 +85,19 @@ AI-assisted modernization.
   Python standards together during implementation and review.
 - Owner: Backend Engineer.
 - Review trigger: Revisit when `python/README.md` is created.
+
+## 2026-06-27 - Python Frameworks Stay at Boundaries
+
+- Context: Phase 8 completed Python standards for Pydantic v2, SQLAlchemy 2.x,
+  FastAPI usage, pathlib, and the Python standards index.
+- Decision: Pydantic, FastAPI, SQLAlchemy, and filesystem access are boundary or
+  infrastructure concerns unless explicitly mapped into domain value objects,
+  commands, repositories, or application services.
+- Rationale: Keeping framework concerns at the edge preserves testability,
+  dependency direction, and domain clarity.
+- Impact: Backend and Architect agents should route boundary model questions
+  through `python/README.md` before changing API, persistence, or filesystem
+  code.
+- Owner: Software Architect.
+- Review trigger: Revisit when FastAPI and persistence architecture standards
+  are expanded.
