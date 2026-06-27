@@ -57,3 +57,17 @@ AI-assisted modernization.
   `engineering/README.md` for design trade-off routing.
 - Owner: Software Architect.
 - Review trigger: Revisit when role playbooks are expanded.
+
+## 2026-06-27 - Role Playbooks Own Operating Behavior
+
+- Context: Phase 6 completed individual AI role playbooks.
+- Decision: Agents should use `agents/README.md` for cross-role authority and
+  the individual role file for execution behavior, checklists, escalation, and
+  deliverables.
+- Rationale: Central role definitions prevent authority drift, while individual
+  playbooks make each role actionable during real tasks.
+- Impact: Future prompts and workflows should reference role playbooks before
+  assigning work or accepting a phase gate.
+- Owner: CTO.
+- Review trigger: Revisit when prompt templates or agent orchestration standards
+  are expanded.

@@ -6,6 +6,24 @@ primary owner role, and the quality gates that apply before changes are accepted
 
 ## Phase Status
 
+### Phase 6 Scope
+
+Phase 6 completes the first individual AI role playbook pack:
+
+- CEO;
+- Product Manager;
+- Software Architect;
+- Backend Engineer;
+- Database Engineer;
+- Security Engineer;
+- QA Engineer;
+- Reviewer;
+- Technical Writer;
+- DevOps and Release Manager.
+
+These playbooks align individual role behavior with the cross-role model in
+`agents/README.md`.
+
 ### Phase 5 Scope
 
 Phase 5 completes the engineering principles reference set:
@@ -166,6 +184,16 @@ expanded in a later phase.
 | GRASP | `engineering/grasp.md` | Phase 5 |
 | CUPID | `engineering/cupid.md` | Phase 5 |
 | Boy Scout Rule | `engineering/boy-scout-rule.md` | Phase 5 |
+| CEO Agent | `agents/ceo.md` | Phase 6 |
+| Product Manager Agent | `agents/product-manager.md` | Phase 6 |
+| Software Architect Agent | `agents/architect.md` | Phase 6 |
+| Backend Engineer Agent | `agents/backend.md` | Phase 6 |
+| Database Engineer Agent | `agents/database.md` | Phase 6 |
+| Security Engineer Agent | `agents/security.md` | Phase 6 |
+| QA Engineer Agent | `agents/qa.md` | Phase 6 |
+| Reviewer Agent | `agents/reviewer.md` | Phase 6 |
+| Technical Writer Agent | `agents/tech-writer.md` | Phase 6 |
+| DevOps and Release Manager Agent | `agents/devops.md` | Phase 6 |
 
 ## Change Control
 

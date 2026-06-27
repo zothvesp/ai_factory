@@ -1,45 +1,44 @@
 # Next Task
 
-## Phase 6 Recommendation
+## Phase 7 Recommendation
 
-Expand the individual AI role files so each role page aligns with the complete
-role model in `agents/README.md`.
+Expand the Python implementation standards that backend agents need before
+modernizing application code.
 
 Recommended files:
 
-- `agents/ceo.md`
-- `agents/product-manager.md`
-- `agents/architect.md`
-- `agents/backend.md`
-- `agents/database.md`
-- `agents/security.md`
-- `agents/qa.md`
-- `agents/reviewer.md`
-- `agents/tech-writer.md`
-- `agents/devops.md`
+- `python/python313.md`
+- `python/typing.md`
+- `python/mypy.md`
+- `python/ruff.md`
+- `python/pytest.md`
+- `python/exceptions.md`
+- `python/logging.md`
+- `python/async.md`
 
 ## Goal
 
-Create production-quality role playbooks that define how each AI role executes
-goals, uses loops, applies standards, escalates risk, and updates Project Brain.
+Create production-quality Python implementation standards that make backend
+modernization consistent, testable, typed, observable, and aligned with the
+completed architecture and engineering principles.
 
 ## Entry Criteria
 
-- Phase 5 reviewed or accepted.
+- Phase 6 reviewed or accepted.
 - Architecture Constitution remains the source of truth for mandatory design
   rules.
-- `agents/README.md` remains the source of truth for the cross-role operating
-  model.
+- Backend Engineer, Reviewer, QA Engineer, and Software Architect playbooks are
+  used as role guidance.
 - Completed governance, review, anti-pattern, smell, and engineering principle
   documents remain examples for document completeness.
 
 ## Exit Criteria
 
-- Each selected role file is complete.
-- Each role page includes responsibilities, inputs, outputs, authority, quality
-  gates, escalation rules, deliverables, operating loop, AI guidance, checklist,
-  and references.
-- Individual role files remain consistent with `agents/README.md`.
+- Each selected Python standard is complete.
+- Each standard includes philosophy, rules, good and bad examples, decision
+  guidance, AI guidance, review checklist, and references.
+- Code review and Backend Engineer playbooks remain aligned with the Python
+  standards.
 - Project Brain records any newly discovered rules, recurring modernization
   risks, or remaining debt.
 - `MANIFEST.md`, `PROJECT_STATE.md`, `NEXT_TASK.md`, and `CHANGELOG.md` are
