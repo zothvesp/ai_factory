@@ -27,7 +27,8 @@ paired with a repayment trigger.
   smell files and the code and architecture review checklists. Phase 4 repaid
   ten engineering principle documents. Phase 5 repaid the remaining engineering
   principle files and added the engineering index. Phase 6 repaid the primary
-  individual role playbook files under `agents/`.
+  individual role playbook files under `agents/`. Phase 7 repaid eight Python
+  implementation standards.
 - Risk: Future agents may mistake skeletal pages for authoritative guidance.
 - Owner: Technical Writer.
 - Repayment trigger: Each topic must be expanded before it is referenced as a

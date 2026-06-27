@@ -1,30 +1,26 @@
 # Next Task
 
-## Phase 7 Recommendation
+## Phase 8 Recommendation
 
-Expand the Python implementation standards that backend agents need before
-modernizing application code.
+Complete the remaining Python data and framework-adjacent standards.
 
 Recommended files:
 
-- `python/python313.md`
-- `python/typing.md`
-- `python/mypy.md`
-- `python/ruff.md`
-- `python/pytest.md`
-- `python/exceptions.md`
-- `python/logging.md`
-- `python/async.md`
+- `python/pydantic-v2.md`
+- `python/sqlalchemy2.md`
+- `python/fastapi.md`
+- `python/pathlib.md`
+- `python/README.md`
 
 ## Goal
 
-Create production-quality Python implementation standards that make backend
-modernization consistent, testable, typed, observable, and aligned with the
-completed architecture and engineering principles.
+Create production-quality standards for Python boundary models, persistence,
+framework usage, path handling, and a Python standards index that routes backend
+implementation decisions.
 
 ## Entry Criteria
 
-- Phase 6 reviewed or accepted.
+- Phase 7 reviewed or accepted.
 - Architecture Constitution remains the source of truth for mandatory design
   rules.
 - Backend Engineer, Reviewer, QA Engineer, and Software Architect playbooks are
@@ -35,6 +31,8 @@ completed architecture and engineering principles.
 ## Exit Criteria
 
 - Each selected Python standard is complete.
+- `python/README.md` provides routing, severity, and review usage guidance for
+  completed Python standards.
 - Each standard includes philosophy, rules, good and bad examples, decision
   guidance, AI guidance, review checklist, and references.
 - Code review and Backend Engineer playbooks remain aligned with the Python

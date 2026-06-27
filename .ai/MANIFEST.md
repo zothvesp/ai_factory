@@ -6,6 +6,22 @@ primary owner role, and the quality gates that apply before changes are accepted
 
 ## Phase Status
 
+### Phase 7 Scope
+
+Phase 7 completes the first Python implementation standards pack:
+
+- Python 3.13+;
+- typing;
+- mypy;
+- Ruff;
+- pytest;
+- exceptions;
+- logging;
+- AsyncIO.
+
+These standards give backend agents practical implementation rules for typed,
+tested, observable Python modernization.
+
 ### Phase 6 Scope
 
 Phase 6 completes the first individual AI role playbook pack:
@@ -194,6 +210,14 @@ expanded in a later phase.
 | Reviewer Agent | `agents/reviewer.md` | Phase 6 |
 | Technical Writer Agent | `agents/tech-writer.md` | Phase 6 |
 | DevOps and Release Manager Agent | `agents/devops.md` | Phase 6 |
+| Python 3.13+ | `python/python313.md` | Phase 7 |
+| Typing | `python/typing.md` | Phase 7 |
+| mypy | `python/mypy.md` | Phase 7 |
+| Ruff | `python/ruff.md` | Phase 7 |
+| pytest | `python/pytest.md` | Phase 7 |
+| Exceptions | `python/exceptions.md` | Phase 7 |
+| Logging | `python/logging.md` | Phase 7 |
+| AsyncIO | `python/async.md` | Phase 7 |
 
 ## Change Control
 

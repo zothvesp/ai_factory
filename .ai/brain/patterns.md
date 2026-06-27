@@ -71,3 +71,17 @@ AI-assisted modernization.
 - Owner: CTO.
 - Review trigger: Revisit when prompt templates or agent orchestration standards
   are expanded.
+
+## 2026-06-27 - Python Modernization Requires Typed, Tested, Observable Code
+
+- Context: Phase 7 completed Python implementation standards for language
+  baseline, typing, mypy, Ruff, pytest, exceptions, logging, and AsyncIO.
+- Decision: Backend modernization should treat type contracts, deterministic
+  tests, explicit failure handling, safe logs, and honest async as one connected
+  implementation quality model.
+- Rationale: Legacy Python risk usually appears where dynamic data, hidden side
+  effects, broad exceptions, weak tests, and blocking I/O overlap.
+- Impact: Backend, QA, Reviewer, Security, and DevOps agents should use the
+  Python standards together during implementation and review.
+- Owner: Backend Engineer.
+- Review trigger: Revisit when `python/README.md` is created.
