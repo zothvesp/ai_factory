@@ -1,32 +1,32 @@
 # Next Task
 
-## Phase 9 Recommendation
+## Phase 10 Recommendation
 
-Expand the FastAPI API standards that define HTTP boundaries, validation,
-errors, pagination, filtering, auth, OpenAPI, middleware, and versioning.
+Expand the domain modeling standards that define business rules, boundaries,
+aggregates, entities, value objects, invariants, repositories, services, events,
+and ubiquitous language.
 
 Recommended files:
 
-- `fastapi/routers.md`
-- `fastapi/dependencies.md`
-- `fastapi/validation.md`
-- `fastapi/errors.md`
-- `fastapi/auth.md`
-- `fastapi/pagination.md`
-- `fastapi/filtering.md`
-- `fastapi/openapi.md`
-- `fastapi/middleware.md`
-- `fastapi/versioning.md`
-- `fastapi/README.md`
+- `domain/README.md`
+- `domain/bounded-contexts.md`
+- `domain/ubiquitous-language.md`
+- `domain/entities.md`
+- `domain/value-objects.md`
+- `domain/aggregates.md`
+- `domain/invariants.md`
+- `domain/repositories.md`
+- `domain/domain-services.md`
+- `domain/domain-events.md`
 
 ## Goal
 
-Create production-quality FastAPI API standards that keep HTTP transport thin,
-secure, documented, versioned, observable, and aligned with Clean Architecture.
+Create production-quality domain modeling standards that keep business behavior
+explicit, cohesive, testable, and independent of frameworks and persistence.
 
 ## Entry Criteria
 
-- Phase 8 reviewed or accepted.
+- Phase 9 reviewed or accepted.
 - Architecture Constitution remains the source of truth for mandatory design
   rules.
 - Backend Engineer, Reviewer, QA Engineer, and Software Architect playbooks are
@@ -36,13 +36,13 @@ secure, documented, versioned, observable, and aligned with Clean Architecture.
 
 ## Exit Criteria
 
-- Each selected FastAPI standard is complete.
-- `fastapi/README.md` provides routing, severity, and review usage guidance for
-  FastAPI API standards.
+- Each selected domain standard is complete.
+- `domain/README.md` provides routing, severity, and review usage guidance for
+  domain modeling standards.
 - Each standard includes philosophy, rules, good and bad examples, decision
   guidance, AI guidance, review checklist, and references.
-- Code review, Backend Engineer, Security Engineer, and Software Architect
-  playbooks remain aligned with the FastAPI standards.
+- Architecture review, Backend Engineer, Reviewer, and Software Architect
+  playbooks remain aligned with the domain standards.
 - Project Brain records any newly discovered rules, recurring modernization
   risks, or remaining debt.
 - `MANIFEST.md`, `PROJECT_STATE.md`, `NEXT_TASK.md`, and `CHANGELOG.md` are

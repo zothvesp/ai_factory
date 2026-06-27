@@ -6,6 +6,20 @@ All notable changes to the AI Engineering Operating System are recorded here.
 
 ### Added
 
+- FastAPI standards index with routing, severity, and review usage guidance.
+- Production FastAPI standards for routers, dependencies, validation, errors,
+  auth, pagination, filtering, OpenAPI, middleware, and versioning.
+- Phase 9 manifest completion entries.
+
+### Changed
+
+- Updated Project Brain and phase state for FastAPI API standards closure.
+- Updated next task to prioritize domain modeling standards.
+
+## 2026-06-27 - Phase 8
+
+### Added
+
 - Python standards index with routing, severity, and review usage guidance.
 - Production Python standards for Pydantic v2, SQLAlchemy 2.x, FastAPI usage,
   and pathlib.

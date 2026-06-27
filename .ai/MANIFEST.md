@@ -6,6 +6,25 @@ primary owner role, and the quality gates that apply before changes are accepted
 
 ## Phase Status
 
+### Phase 9 Scope
+
+Phase 9 completes the FastAPI API standards reference set:
+
+- FastAPI standards index;
+- routers;
+- dependencies;
+- validation;
+- errors;
+- auth;
+- pagination;
+- filtering;
+- OpenAPI;
+- middleware;
+- versioning.
+
+These standards define HTTP transport boundaries that remain thin, secure,
+documented, versioned, and aligned with Clean Architecture.
+
 ### Phase 8 Scope
 
 Phase 8 completes the Python standards reference set:
@@ -236,6 +255,17 @@ expanded in a later phase.
 | SQLAlchemy 2.x | `python/sqlalchemy2.md` | Phase 8 |
 | FastAPI Python Usage | `python/fastapi.md` | Phase 8 |
 | pathlib | `python/pathlib.md` | Phase 8 |
+| FastAPI Standards Index | `fastapi/README.md` | Phase 9 |
+| FastAPI Routers | `fastapi/routers.md` | Phase 9 |
+| FastAPI Dependencies | `fastapi/dependencies.md` | Phase 9 |
+| FastAPI Validation | `fastapi/validation.md` | Phase 9 |
+| FastAPI Errors | `fastapi/errors.md` | Phase 9 |
+| FastAPI Auth | `fastapi/auth.md` | Phase 9 |
+| FastAPI Pagination | `fastapi/pagination.md` | Phase 9 |
+| FastAPI Filtering | `fastapi/filtering.md` | Phase 9 |
+| FastAPI OpenAPI | `fastapi/openapi.md` | Phase 9 |
+| FastAPI Middleware | `fastapi/middleware.md` | Phase 9 |
+| FastAPI Versioning | `fastapi/versioning.md` | Phase 9 |
 
 ## Change Control
 

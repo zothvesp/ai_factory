@@ -101,3 +101,19 @@ AI-assisted modernization.
 - Owner: Software Architect.
 - Review trigger: Revisit when FastAPI and persistence architecture standards
   are expanded.
+
+## 2026-06-27 - FastAPI Is an HTTP Adapter
+
+- Context: Phase 9 completed FastAPI standards for routers, dependencies,
+  validation, errors, auth, pagination, filtering, OpenAPI, middleware, and
+  versioning.
+- Decision: FastAPI code must remain a transport boundary that composes
+  dependencies, validates HTTP input, authorizes access, calls application
+  services, and maps responses.
+- Rationale: Keeping FastAPI thin prevents framework-driven architecture and
+  preserves domain testability.
+- Impact: Backend, Security, Reviewer, and Architect agents should use
+  `fastapi/README.md` before changing HTTP behavior or API contracts.
+- Owner: Software Architect.
+- Review trigger: Revisit when API guidelines and architecture standards are
+  expanded.
