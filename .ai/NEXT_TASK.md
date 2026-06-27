@@ -1,40 +1,45 @@
 # Next Task
 
-## Phase 5 Recommendation
+## Phase 6 Recommendation
 
-Complete the remaining engineering principle standards and add an engineering
-principles index.
+Expand the individual AI role files so each role page aligns with the complete
+role model in `agents/README.md`.
 
 Recommended files:
 
-- `engineering/README.md`
-- `engineering/grasp.md`
-- `engineering/cupid.md`
-- `engineering/boy-scout-rule.md`
+- `agents/ceo.md`
+- `agents/product-manager.md`
+- `agents/architect.md`
+- `agents/backend.md`
+- `agents/database.md`
+- `agents/security.md`
+- `agents/qa.md`
+- `agents/reviewer.md`
+- `agents/tech-writer.md`
+- `agents/devops.md`
 
 ## Goal
 
-Create a complete engineering principle reference set that ties together
-object-oriented responsibility assignment, humane code qualities, and continuous
-incremental improvement.
+Create production-quality role playbooks that define how each AI role executes
+goals, uses loops, applies standards, escalates risk, and updates Project Brain.
 
 ## Entry Criteria
 
-- Phase 4 reviewed or accepted.
+- Phase 5 reviewed or accepted.
 - Architecture Constitution remains the source of truth for mandatory design
   rules.
-- Completed anti-pattern, smell, code review, and architecture review documents
-  remain the examples for document completeness.
+- `agents/README.md` remains the source of truth for the cross-role operating
+  model.
+- Completed governance, review, anti-pattern, smell, and engineering principle
+  documents remain examples for document completeness.
 
 ## Exit Criteria
 
-- Remaining engineering principle documents are complete.
-- `engineering/README.md` provides routing, severity, and review usage guidance
-  for all completed engineering principles.
-- Each principle includes philosophy, explanation, good and bad examples,
-  decision guidance, AI guidance, review checklist, and references.
-- Code review and architecture review checklists remain aligned with the
-  completed principles.
+- Each selected role file is complete.
+- Each role page includes responsibilities, inputs, outputs, authority, quality
+  gates, escalation rules, deliverables, operating loop, AI guidance, checklist,
+  and references.
+- Individual role files remain consistent with `agents/README.md`.
 - Project Brain records any newly discovered rules, recurring modernization
   risks, or remaining debt.
 - `MANIFEST.md`, `PROJECT_STATE.md`, `NEXT_TASK.md`, and `CHANGELOG.md` are

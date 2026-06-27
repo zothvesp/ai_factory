@@ -6,6 +6,18 @@ primary owner role, and the quality gates that apply before changes are accepted
 
 ## Phase Status
 
+### Phase 5 Scope
+
+Phase 5 completes the engineering principles reference set:
+
+- engineering principles index;
+- GRASP;
+- CUPID;
+- Boy Scout Rule.
+
+The engineering principles area now has a routing index and complete standards
+for all principle files currently in the repository.
+
 ### Phase 4 Scope
 
 Phase 4 completes the first engineering principle pack:
@@ -150,6 +162,10 @@ expanded in a later phase.
 | Fail Fast | `engineering/fail-fast.md` | Phase 4 |
 | Law of Demeter | `engineering/law-of-demeter.md` | Phase 4 |
 | Tell, Don't Ask | `engineering/tell-dont-ask.md` | Phase 4 |
+| Engineering Principles Index | `engineering/README.md` | Phase 5 |
+| GRASP | `engineering/grasp.md` | Phase 5 |
+| CUPID | `engineering/cupid.md` | Phase 5 |
+| Boy Scout Rule | `engineering/boy-scout-rule.md` | Phase 5 |
 
 ## Change Control
 

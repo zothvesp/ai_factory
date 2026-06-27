@@ -44,3 +44,16 @@ AI-assisted modernization.
   fail fast, and feature envy with Tell, Don't Ask or Law of Demeter.
 - Owner: Software Architect.
 - Review trigger: Revisit when `engineering/README.md` is created.
+
+## 2026-06-27 - Principle Routing Is a First-Class Review Tool
+
+- Context: Phase 5 created `engineering/README.md` and completed GRASP, CUPID,
+  and Boy Scout Rule.
+- Decision: Agents should use the engineering principles index when a design
+  question spans multiple principles or when principles appear to conflict.
+- Rationale: The index prevents principle shopping and gives agents a consistent
+  way to balance KISS, YAGNI, SOLID, DRY, GRASP, CUPID, and Boy Scout Rule.
+- Impact: Future role playbooks and prompts should reference
+  `engineering/README.md` for design trade-off routing.
+- Owner: Software Architect.
+- Review trigger: Revisit when role playbooks are expanded.

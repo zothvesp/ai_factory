@@ -6,6 +6,22 @@ All notable changes to the AI Engineering Operating System are recorded here.
 
 ### Added
 
+- Engineering principles index with routing, severity, conflict resolution, and
+  review usage guidance.
+- Production engineering principle standards for GRASP, CUPID, and Boy Scout
+  Rule.
+- Phase 5 manifest completion entries.
+
+### Changed
+
+- Updated Project Brain and phase state for engineering principles reference set
+  closure.
+- Updated next task to expand individual AI role playbooks.
+
+## 2026-06-27 - Phase 4
+
+### Added
+
 - Production engineering principle standards for DRY, KISS, YAGNI, SOLID,
   dependency injection, high cohesion and low coupling, composition over
   inheritance, fail fast, Law of Demeter, and Tell, Don't Ask.

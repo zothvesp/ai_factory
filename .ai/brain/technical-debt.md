@@ -25,7 +25,8 @@ paired with a repayment trigger.
   the AI-OS documentation completion rules. Phase 2 repaid the first ten topic
   documents: five anti-patterns and five smells. Phase 3 repaid the remaining
   smell files and the code and architecture review checklists. Phase 4 repaid
-  ten engineering principle documents.
+  ten engineering principle documents. Phase 5 repaid the remaining engineering
+  principle files and added the engineering index.
 - Risk: Future agents may mistake skeletal pages for authoritative guidance.
 - Owner: Technical Writer.
 - Repayment trigger: Each topic must be expanded before it is referenced as a
