@@ -1,0 +1,69 @@
+# AI-OS Manifest
+
+This manifest is the inventory and ownership map for the AI Engineering
+Operating System. It records the purpose of each documentation domain, the
+primary owner role, and the quality gates that apply before changes are accepted.
+
+## Phase 1 Scope
+
+Phase 1 establishes the governing spine of the AI-OS:
+
+- root operating contract;
+- architecture constitution;
+- goal engineering framework;
+- engineering loop model;
+- AI role model;
+- Project Brain operating rules;
+- phase state, next task, and changelog.
+
+Detailed expansion of every smell, anti-pattern, design pattern, framework
+standard, and checklist is intentionally scheduled for later phases so each
+document can be completed with examples and review criteria.
+
+## Documentation Domains
+
+| Domain | Path | Owner Role | Purpose | Required Gate |
+| --- | --- | --- | --- | --- |
+| Executive direction | `executive/` | CEO | Mission, vision, constraints, roadmap, success metrics, stakeholders, release strategy. | Business goal and constraint review |
+| AI agents | `agents/` | CTO | Role definitions, authority, deliverables, escalation, quality gates. | Role clarity review |
+| Architecture | `architecture/` | Software Architect | Constitution, architecture styles, ADRs, API, persistence, async, messaging, C4. | Architecture review |
+| Goal engineering | `goals/` | Product Manager | Discovery, decomposition, acceptance, exit criteria, KPIs, constraints, risks. | Definition of Ready |
+| Engineering loops | `loops/` | CTO | Reusable execution loops and exit criteria for delivery work. | Loop compliance review |
+| Project Brain | `brain/` | Technical Writer | Persistent knowledge system for decisions, rules, risks, debt, patterns, and roadmap. | Knowledge update review |
+| Product standards | `product/` | Product Manager | PRDs, personas, stories, use cases, NFRs, journeys, acceptance criteria. | Product review |
+| Engineering principles | `engineering/` | Software Architect | DRY, KISS, SOLID, GRASP, CUPID, cohesion, coupling, DI, and related principles. | Principle-to-rule traceability |
+| Clean code | `clean-code/` | Backend Engineer | Naming, functions, classes, comments, errors, formatting, testing, refactoring. | Code review |
+| Python standards | `python/` | Backend Engineer | Python 3.13, typing, mypy, Ruff, pytest, logging, exceptions, async, SQLAlchemy, Pydantic. | Static analysis review |
+| FastAPI standards | `fastapi/` | Backend Engineer | Routers, dependencies, auth, validation, errors, pagination, filtering, versioning, OpenAPI, middleware. | API review |
+| Domain modeling | `domain/` | Software Architect | Bounded contexts, aggregates, entities, value objects, invariants, events, repositories. | Domain model review |
+| Patterns | `patterns/` | Software Architect | Approved patterns and usage guidance. | Pattern fitness review |
+| Anti-patterns | `anti-patterns/` | Reviewer | Prohibited designs, detection, remediation, and exceptions. | Refactoring review |
+| Smells | `smells/` | Reviewer | Code smell detection, impact, remediation, and review guidance. | Maintainability review |
+| Metrics | `metrics/` | QA Engineer | Quality, coverage, complexity, duplication, performance, maintainability. | Measurement review |
+| Checklists | `checklists/` | QA Engineer | Ready, done, architecture, code, security, release, deployment review. | Checklist completeness review |
+| Prompts | `prompts/` | AI Systems Engineer | Reusable prompts for analysis, domain discovery, review, security, performance, tests, docs. | Prompt safety review |
+
+## Completion Rules
+
+A document is complete when it contains:
+
+- purpose and scope;
+- binding rules;
+- rationale and trade-offs;
+- examples or decision guidance;
+- AI guidance;
+- review checklist;
+- cross-links to related documents;
+- references where useful.
+
+Documents that only contain headings are not accepted as complete production
+documents. Existing skeletal documents are tracked as modernization backlog until
+expanded in a later phase.
+
+## Change Control
+
+- Architectural rule changes require updates to `architecture/constitution.md`
+  and an ADR entry.
+- Role authority changes require updates to `agents/README.md`.
+- New knowledge categories require updates to `brain/README.md`.
+- Any phase must update `PROJECT_STATE.md`, `NEXT_TASK.md`, and `CHANGELOG.md`.
