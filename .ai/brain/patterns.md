@@ -117,3 +117,18 @@ AI-assisted modernization.
 - Owner: Software Architect.
 - Review trigger: Revisit when API guidelines and architecture standards are
   expanded.
+
+## 2026-06-28 - Domain Model Before Framework Model
+
+- Context: Phase 10 completed domain modeling standards for boundaries,
+  language, entities, value objects, aggregates, invariants, repositories,
+  services, and events.
+- Decision: Agents should identify domain language, invariants, and ownership
+  before selecting Pydantic schemas, SQLAlchemy models, FastAPI routes, or
+  storage structures.
+- Rationale: Framework-first modeling scatters business rules and makes legacy
+  modernization harder to verify.
+- Impact: Backend and Architect agents should route business behavior questions
+  through `domain/README.md` before changing framework or persistence code.
+- Owner: Software Architect.
+- Review trigger: Revisit when architecture style standards are expanded.

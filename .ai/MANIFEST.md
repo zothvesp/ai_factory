@@ -6,6 +6,24 @@ primary owner role, and the quality gates that apply before changes are accepted
 
 ## Phase Status
 
+### Phase 10 Scope
+
+Phase 10 completes the domain modeling standards reference set:
+
+- domain standards index;
+- bounded contexts;
+- ubiquitous language;
+- entities;
+- value objects;
+- aggregates;
+- invariants;
+- repositories;
+- domain services;
+- domain events.
+
+These standards define how business behavior remains explicit, cohesive,
+testable, and independent of frameworks and persistence.
+
 ### Phase 9 Scope
 
 Phase 9 completes the FastAPI API standards reference set:
@@ -266,6 +284,16 @@ expanded in a later phase.
 | FastAPI OpenAPI | `fastapi/openapi.md` | Phase 9 |
 | FastAPI Middleware | `fastapi/middleware.md` | Phase 9 |
 | FastAPI Versioning | `fastapi/versioning.md` | Phase 9 |
+| Domain Standards Index | `domain/README.md` | Phase 10 |
+| Bounded Contexts | `domain/bounded-contexts.md` | Phase 10 |
+| Ubiquitous Language | `domain/ubiquitous-language.md` | Phase 10 |
+| Entities | `domain/entities.md` | Phase 10 |
+| Value Objects | `domain/value-objects.md` | Phase 10 |
+| Aggregates | `domain/aggregates.md` | Phase 10 |
+| Invariants | `domain/invariants.md` | Phase 10 |
+| Repositories | `domain/repositories.md` | Phase 10 |
+| Domain Services | `domain/domain-services.md` | Phase 10 |
+| Domain Events | `domain/domain-events.md` | Phase 10 |
 
 ## Change Control
 

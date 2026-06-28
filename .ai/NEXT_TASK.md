@@ -1,32 +1,32 @@
 # Next Task
 
-## Phase 10 Recommendation
+## Phase 11 Recommendation
 
-Expand the domain modeling standards that define business rules, boundaries,
-aggregates, entities, value objects, invariants, repositories, services, events,
-and ubiquitous language.
+Expand architecture style and decision standards so agents can choose and govern
+system structure consistently.
 
 Recommended files:
 
-- `domain/README.md`
-- `domain/bounded-contexts.md`
-- `domain/ubiquitous-language.md`
-- `domain/entities.md`
-- `domain/value-objects.md`
-- `domain/aggregates.md`
-- `domain/invariants.md`
-- `domain/repositories.md`
-- `domain/domain-services.md`
-- `domain/domain-events.md`
+- `architecture/clean-architecture.md`
+- `architecture/hexagonal.md`
+- `architecture/onion.md`
+- `architecture/persistence.md`
+- `architecture/api-guidelines.md`
+- `architecture/async.md`
+- `architecture/messaging.md`
+- `architecture/c4.md`
+- `architecture/adrs.md`
+- `architecture/README.md`
 
 ## Goal
 
-Create production-quality domain modeling standards that keep business behavior
-explicit, cohesive, testable, and independent of frameworks and persistence.
+Create production-quality architecture standards that define structural styles,
+decision records, API architecture, persistence architecture, async/messaging
+architecture, and diagram usage.
 
 ## Entry Criteria
 
-- Phase 9 reviewed or accepted.
+- Phase 10 reviewed or accepted.
 - Architecture Constitution remains the source of truth for mandatory design
   rules.
 - Backend Engineer, Reviewer, QA Engineer, and Software Architect playbooks are
@@ -36,13 +36,13 @@ explicit, cohesive, testable, and independent of frameworks and persistence.
 
 ## Exit Criteria
 
-- Each selected domain standard is complete.
-- `domain/README.md` provides routing, severity, and review usage guidance for
-  domain modeling standards.
+- Each selected architecture standard is complete.
+- `architecture/README.md` provides routing, severity, and review usage guidance
+  for architecture standards.
 - Each standard includes philosophy, rules, good and bad examples, decision
   guidance, AI guidance, review checklist, and references.
-- Architecture review, Backend Engineer, Reviewer, and Software Architect
-  playbooks remain aligned with the domain standards.
+- Architecture review, Software Architect, Backend Engineer, Reviewer, and
+  DevOps playbooks remain aligned with the architecture standards.
 - Project Brain records any newly discovered rules, recurring modernization
   risks, or remaining debt.
 - `MANIFEST.md`, `PROJECT_STATE.md`, `NEXT_TASK.md`, and `CHANGELOG.md` are

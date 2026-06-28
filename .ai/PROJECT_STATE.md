@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-Phase 9: FastAPI API standards.
+Phase 10: Domain modeling standards.
 
 ## Status
 
@@ -80,13 +80,22 @@ Ready for review.
 - Updated Project Brain with the thin HTTP boundary rule and reduced the
   documentation debt scope.
 - Updated manifest, next task, and changelog for Phase 9 closure.
+- Added the domain standards index with severity model, routing decision tree,
+  and review usage guidance.
+- Expanded bounded contexts, ubiquitous language, entities, value objects,
+  aggregates, invariants, repositories, domain services, and domain events into
+  production-quality standards.
+- Completed all domain standard files currently present in the repository.
+- Updated Project Brain with the domain-first modeling rule and reduced the
+  documentation debt scope.
+- Updated manifest, next task, and changelog for Phase 10 closure.
 
 ## Evidence
 
 - Documentation is organized under `.ai/`.
 - Phase files exist: `README.md`, `MANIFEST.md`, `PROJECT_STATE.md`,
   `NEXT_TASK.md`, and `CHANGELOG.md`.
-- Phase 2 through Phase 9 completed standards are listed in `MANIFEST.md`.
+- Phase 2 through Phase 10 completed standards are listed in `MANIFEST.md`.
 - Code review and architecture review now route maintainability findings through
   completed smell and anti-pattern indexes.
 - Engineering principle documents now explain the rationale behind core review
@@ -103,6 +112,9 @@ Ready for review.
 - `fastapi/README.md` now routes API boundary decisions across routes,
   dependencies, validation, errors, auth, pagination, filtering, OpenAPI,
   middleware, and versioning.
+- `domain/README.md` now routes domain modeling decisions across boundaries,
+  language, entities, value objects, aggregates, invariants, repositories,
+  services, and events.
 - The Git remote target is `git@github.com:zothvesp/ai_factory.git`.
 
 ## Known Constraints
@@ -111,13 +123,13 @@ Ready for review.
   Git metadata cannot be stored at `.git`. Publishing must use an external Git
   directory unless the filesystem mount is changed.
 - Many pre-existing documents outside completed governance, role, review, smell,
-  anti-pattern, engineering principle, Python, and FastAPI packs remain
+  anti-pattern, engineering principle, Python, FastAPI, and domain packs remain
   skeletal backlog items. They are not treated as completed standards until
   expanded according to the manifest completion rules.
 
 ## Review Questions
 
-- Should Phase 10 prioritize domain modeling standards or architecture style
+- Should Phase 11 prioritize architecture style standards or clean-code
   standards?
 - Should the legacy application source files remain in this repository, or
   should the AI-OS be separated into a documentation-only repository?

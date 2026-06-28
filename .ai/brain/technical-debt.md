@@ -30,7 +30,8 @@ paired with a repayment trigger.
   individual role playbook files under `agents/`. Phase 7 repaid eight Python
   implementation standards. Phase 8 repaid the remaining Python standard files
   and added the Python standards index. Phase 9 repaid all FastAPI standard
-  files and added the FastAPI standards index.
+  files and added the FastAPI standards index. Phase 10 repaid all domain
+  modeling standard files and added the domain standards index.
 - Risk: Future agents may mistake skeletal pages for authoritative guidance.
 - Owner: Technical Writer.
 - Repayment trigger: Each topic must be expanded before it is referenced as a

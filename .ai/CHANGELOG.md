@@ -6,6 +6,21 @@ All notable changes to the AI Engineering Operating System are recorded here.
 
 ### Added
 
+- Domain standards index with routing, severity, and review usage guidance.
+- Production domain modeling standards for bounded contexts, ubiquitous
+  language, entities, value objects, aggregates, invariants, repositories,
+  domain services, and domain events.
+- Phase 10 manifest completion entries.
+
+### Changed
+
+- Updated Project Brain and phase state for domain modeling standards closure.
+- Updated next task to prioritize architecture style and decision standards.
+
+## 2026-06-27 - Phase 9
+
+### Added
+
 - FastAPI standards index with routing, severity, and review usage guidance.
 - Production FastAPI standards for routers, dependencies, validation, errors,
   auth, pagination, filtering, OpenAPI, middleware, and versioning.
