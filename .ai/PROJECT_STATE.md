@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-Phase 11: Architecture style and decision standards.
+Phase 12: Clean-code standards.
 
 ## Status
 
@@ -101,13 +101,21 @@ Ready for review.
 - Updated Project Brain with architecture routing and ADR guidance and reduced
   the documentation debt scope.
 - Updated manifest, next task, and changelog for Phase 11 closure.
+- Added the clean-code standards index with severity model, routing decision
+  tree, and review usage guidance.
+- Expanded naming, functions, classes, comments, errors, formatting, testing,
+  refactoring, and heuristics into production-quality standards.
+- Completed all clean-code standard files currently present in the repository.
+- Updated Project Brain with clean-code review routing guidance and reduced the
+  documentation debt scope.
+- Updated manifest, next task, and changelog for Phase 12 closure.
 
 ## Evidence
 
 - Documentation is organized under `.ai/`.
 - Phase files exist: `README.md`, `MANIFEST.md`, `PROJECT_STATE.md`,
   `NEXT_TASK.md`, and `CHANGELOG.md`.
-- Phase 2 through Phase 11 completed standards are listed in `MANIFEST.md`.
+- Phase 2 through Phase 12 completed standards are listed in `MANIFEST.md`.
 - Code review and architecture review now route maintainability findings through
   completed smell and anti-pattern indexes.
 - Engineering principle documents now explain the rationale behind core review
@@ -130,6 +138,9 @@ Ready for review.
 - `architecture/README.md` now routes structural decisions across layers,
   ports/adapters, persistence, API contracts, async workflows, messaging,
   diagrams, and ADRs.
+- `clean-code/README.md` now routes implementation-quality decisions across
+  naming, functions, classes, comments, errors, formatting, testing,
+  refactoring, and heuristics.
 - The Git remote target is `git@github.com:zothvesp/ai_factory.git`.
 
 ## Known Constraints
@@ -138,12 +149,13 @@ Ready for review.
   Git metadata cannot be stored at `.git`. Publishing must use an external Git
   directory unless the filesystem mount is changed.
 - Many pre-existing documents outside completed governance, role, architecture,
-  review, smell, anti-pattern, engineering principle, Python, FastAPI, and
-  domain packs remain skeletal backlog items. They are not treated as completed
-  standards until expanded according to the manifest completion rules.
+  clean-code, review, smell, anti-pattern, engineering principle, Python,
+  FastAPI, and domain packs remain skeletal backlog items. They are not treated
+  as completed standards until expanded according to the manifest completion
+  rules.
 
 ## Review Questions
 
-- Should Phase 12 prioritize clean-code standards or product standards?
+- Should Phase 13 prioritize design patterns or product standards?
 - Should the legacy application source files remain in this repository, or
   should the AI-OS be separated into a documentation-only repository?

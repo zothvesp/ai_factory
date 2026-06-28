@@ -1,50 +1,49 @@
 # Next Task
 
-## Phase 12 Recommendation
+## Phase 13 Recommendation
 
-Expand clean-code standards so agents can evaluate and improve implementation
-quality consistently inside the architecture and domain boundaries already
-defined.
+Expand design pattern standards so agents can select proven implementation
+structures without overengineering or violating the architecture constitution.
 
 Recommended files:
 
-- `clean-code/README.md`
-- `clean-code/naming.md`
-- `clean-code/functions.md`
-- `clean-code/classes.md`
-- `clean-code/comments.md`
-- `clean-code/errors.md`
-- `clean-code/formatting.md`
-- `clean-code/testing.md`
-- `clean-code/refactoring.md`
-- `clean-code/heuristics.md`
+- `patterns/README.md`
+- `patterns/adapter.md`
+- `patterns/repository.md`
+- `patterns/factory.md`
+- `patterns/strategy.md`
+- `patterns/decorator.md`
+- `patterns/facade.md`
+- `patterns/builder.md`
+- `patterns/observer.md`
 
 ## Goal
 
-Create production-quality clean-code standards for readable, testable,
-maintainable Python modernization work.
+Create production-quality pattern standards that explain when to use common
+design patterns, when to avoid them, and how they fit Clean Architecture,
+Hexagonal Architecture, domain modeling, and Python implementation standards.
 
 ## Entry Criteria
 
-- Phase 11 reviewed or accepted.
+- Phase 12 reviewed or accepted.
 - Architecture Constitution remains the source of truth for mandatory design
   rules.
-- Backend Engineer, Reviewer, QA Engineer, and Software Architect playbooks
+- Software Architect, Backend Engineer, Reviewer, and QA Engineer playbooks
   remain role guidance.
-- Completed architecture, domain, Python, FastAPI, engineering, smell, and
-  anti-pattern standards remain source-of-truth references.
+- Completed architecture, domain, clean-code, Python, FastAPI, engineering,
+  smell, and anti-pattern standards remain source-of-truth references.
 - Completed governance, review, anti-pattern, smell, and engineering principle
   documents remain examples for document completeness.
 
 ## Exit Criteria
 
-- Each selected clean-code standard is complete.
-- `clean-code/README.md` provides routing, severity, and review usage guidance
-  for clean-code standards.
+- Each selected pattern standard is complete.
+- `patterns/README.md` provides routing, severity, and review usage guidance
+  for design patterns.
 - Each standard includes philosophy, rules, good and bad examples, decision
   guidance, AI guidance, review checklist, and references.
-- Code review, Backend Engineer, Reviewer, and QA playbooks remain aligned with
-  clean-code standards.
+- Architecture review, code review, Software Architect, Backend Engineer, and
+  Reviewer playbooks remain aligned with pattern standards.
 - Project Brain records any newly discovered rules, recurring modernization
   risks, or remaining debt.
 - `MANIFEST.md`, `PROJECT_STATE.md`, `NEXT_TASK.md`, and `CHANGELOG.md` are

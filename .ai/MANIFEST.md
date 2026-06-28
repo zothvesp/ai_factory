@@ -6,6 +6,25 @@ primary owner role, and the quality gates that apply before changes are accepted
 
 ## Phase Status
 
+### Phase 12 Scope
+
+Phase 12 completes the clean-code standards reference set:
+
+- clean-code standards index;
+- naming;
+- functions;
+- classes;
+- comments;
+- errors;
+- formatting;
+- testing;
+- refactoring;
+- heuristics.
+
+These standards define local implementation quality rules for readable,
+testable, maintainable Python modernization inside the architecture, domain,
+API, and Python standards already established.
+
 ### Phase 11 Scope
 
 Phase 11 completes the architecture style and decision standards reference set:
@@ -323,6 +342,16 @@ expanded in a later phase.
 | Messaging Architecture | `architecture/messaging.md` | Phase 11 |
 | C4 Diagrams | `architecture/c4.md` | Phase 11 |
 | Architecture Decision Records | `architecture/adrs.md` | Phase 11 |
+| Clean Code Standards Index | `clean-code/README.md` | Phase 12 |
+| Naming | `clean-code/naming.md` | Phase 12 |
+| Functions | `clean-code/functions.md` | Phase 12 |
+| Classes | `clean-code/classes.md` | Phase 12 |
+| Comments | `clean-code/comments.md` | Phase 12 |
+| Errors | `clean-code/errors.md` | Phase 12 |
+| Formatting | `clean-code/formatting.md` | Phase 12 |
+| Testing | `clean-code/testing.md` | Phase 12 |
+| Refactoring | `clean-code/refactoring.md` | Phase 12 |
+| Clean Code Heuristics | `clean-code/heuristics.md` | Phase 12 |
 
 ## Change Control
 

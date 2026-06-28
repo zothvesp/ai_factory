@@ -33,7 +33,8 @@ paired with a repayment trigger.
   files and added the FastAPI standards index. Phase 10 repaid all domain
   modeling standard files and added the domain standards index. Phase 11 repaid
   the architecture style and decision standard files and added the architecture
-  standards index.
+  standards index. Phase 12 repaid all clean-code standard files and added the
+  clean-code standards index.
 - Risk: Future agents may mistake skeletal pages for authoritative guidance.
 - Owner: Technical Writer.
 - Repayment trigger: Each topic must be expanded before it is referenced as a

@@ -149,3 +149,19 @@ AI-assisted modernization.
 - Owner: Software Architect.
 - Review trigger: Revisit when deployment, operations, or governance standards
   are expanded.
+
+## 2026-06-28 - Clean Code Review Needs Specific Routing
+
+- Context: Phase 12 completed clean-code standards for names, functions,
+  classes, comments, errors, formatting, tests, refactoring, and heuristics.
+- Decision: Agents should route local implementation findings through
+  `clean-code/README.md` before recommending a fix, then cite the specific
+  standard that explains the risk.
+- Rationale: "Clean code" is too broad to be actionable without classification.
+  Specific routing separates readability, testability, failure handling, and
+  refactoring safety concerns.
+- Impact: Backend, Reviewer, QA, and Architect agents should distinguish
+  subjective preference from concrete maintainability risk.
+- Owner: Reviewer.
+- Review trigger: Revisit when prompt templates or automated review standards
+  are expanded.

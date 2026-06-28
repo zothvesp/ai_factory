@@ -2,6 +2,20 @@
 
 All notable changes to the AI Engineering Operating System are recorded here.
 
+## 2026-06-28 - Phase 12
+
+### Added
+
+- Clean-code standards index with routing, severity, and review usage guidance.
+- Production clean-code standards for naming, functions, classes, comments,
+  errors, formatting, testing, refactoring, and heuristics.
+- Phase 12 manifest completion entries.
+
+### Changed
+
+- Updated Project Brain and phase state for clean-code standards closure.
+- Updated next task to prioritize design pattern standards.
+
 ## 2026-06-28 - Phase 11
 
 ### Added
