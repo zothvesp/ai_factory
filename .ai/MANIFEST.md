@@ -6,6 +6,25 @@ primary owner role, and the quality gates that apply before changes are accepted
 
 ## Phase Status
 
+### Phase 11 Scope
+
+Phase 11 completes the architecture style and decision standards reference set:
+
+- architecture standards index;
+- Clean Architecture;
+- Hexagonal Architecture;
+- Onion Architecture;
+- persistence architecture;
+- API architecture guidelines;
+- async architecture;
+- messaging architecture;
+- C4 diagrams;
+- Architecture Decision Records.
+
+These standards define how AI agents preserve dependency direction, boundary
+ownership, stable contracts, safe data access, reliable asynchronous work, and
+durable decision records.
+
 ### Phase 10 Scope
 
 Phase 10 completes the domain modeling standards reference set:
@@ -294,6 +313,16 @@ expanded in a later phase.
 | Repositories | `domain/repositories.md` | Phase 10 |
 | Domain Services | `domain/domain-services.md` | Phase 10 |
 | Domain Events | `domain/domain-events.md` | Phase 10 |
+| Architecture Standards Index | `architecture/README.md` | Phase 11 |
+| Clean Architecture | `architecture/clean-architecture.md` | Phase 11 |
+| Hexagonal Architecture | `architecture/hexagonal.md` | Phase 11 |
+| Onion Architecture | `architecture/onion.md` | Phase 11 |
+| Persistence Architecture | `architecture/persistence.md` | Phase 11 |
+| API Architecture Guidelines | `architecture/api-guidelines.md` | Phase 11 |
+| Async Architecture | `architecture/async.md` | Phase 11 |
+| Messaging Architecture | `architecture/messaging.md` | Phase 11 |
+| C4 Diagrams | `architecture/c4.md` | Phase 11 |
+| Architecture Decision Records | `architecture/adrs.md` | Phase 11 |
 
 ## Change Control
 

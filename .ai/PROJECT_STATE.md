@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-Phase 10: Domain modeling standards.
+Phase 11: Architecture style and decision standards.
 
 ## Status
 
@@ -89,13 +89,25 @@ Ready for review.
 - Updated Project Brain with the domain-first modeling rule and reduced the
   documentation debt scope.
 - Updated manifest, next task, and changelog for Phase 10 closure.
+- Added the architecture standards index with severity model, routing decision
+  tree, and review usage guidance.
+- Expanded Clean Architecture, Hexagonal Architecture, Onion Architecture,
+  persistence architecture, API architecture guidelines, async architecture,
+  messaging architecture, C4 diagrams, and Architecture Decision Records into
+  production-quality standards.
+- Completed all architecture style and decision files currently present in the
+  repository, with `architecture/constitution.md` remaining the mandatory
+  governing rule set.
+- Updated Project Brain with architecture routing and ADR guidance and reduced
+  the documentation debt scope.
+- Updated manifest, next task, and changelog for Phase 11 closure.
 
 ## Evidence
 
 - Documentation is organized under `.ai/`.
 - Phase files exist: `README.md`, `MANIFEST.md`, `PROJECT_STATE.md`,
   `NEXT_TASK.md`, and `CHANGELOG.md`.
-- Phase 2 through Phase 10 completed standards are listed in `MANIFEST.md`.
+- Phase 2 through Phase 11 completed standards are listed in `MANIFEST.md`.
 - Code review and architecture review now route maintainability findings through
   completed smell and anti-pattern indexes.
 - Engineering principle documents now explain the rationale behind core review
@@ -115,6 +127,9 @@ Ready for review.
 - `domain/README.md` now routes domain modeling decisions across boundaries,
   language, entities, value objects, aggregates, invariants, repositories,
   services, and events.
+- `architecture/README.md` now routes structural decisions across layers,
+  ports/adapters, persistence, API contracts, async workflows, messaging,
+  diagrams, and ADRs.
 - The Git remote target is `git@github.com:zothvesp/ai_factory.git`.
 
 ## Known Constraints
@@ -122,14 +137,13 @@ Ready for review.
 - The workspace contains an empty read-only `.git` directory, so normal local
   Git metadata cannot be stored at `.git`. Publishing must use an external Git
   directory unless the filesystem mount is changed.
-- Many pre-existing documents outside completed governance, role, review, smell,
-  anti-pattern, engineering principle, Python, FastAPI, and domain packs remain
-  skeletal backlog items. They are not treated as completed standards until
-  expanded according to the manifest completion rules.
+- Many pre-existing documents outside completed governance, role, architecture,
+  review, smell, anti-pattern, engineering principle, Python, FastAPI, and
+  domain packs remain skeletal backlog items. They are not treated as completed
+  standards until expanded according to the manifest completion rules.
 
 ## Review Questions
 
-- Should Phase 11 prioritize architecture style standards or clean-code
-  standards?
+- Should Phase 12 prioritize clean-code standards or product standards?
 - Should the legacy application source files remain in this repository, or
   should the AI-OS be separated into a documentation-only repository?

@@ -2,6 +2,22 @@
 
 All notable changes to the AI Engineering Operating System are recorded here.
 
+## 2026-06-28 - Phase 11
+
+### Added
+
+- Architecture standards index with routing, severity, and review usage
+  guidance.
+- Production architecture standards for Clean Architecture, Hexagonal
+  Architecture, Onion Architecture, persistence, API guidelines, async,
+  messaging, C4 diagrams, and ADRs.
+- Phase 11 manifest completion entries.
+
+### Changed
+
+- Updated Project Brain and phase state for architecture standards closure.
+- Updated next task to prioritize clean-code standards.
+
 ## 2026-06-27
 
 ### Added

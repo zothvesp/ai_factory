@@ -31,7 +31,9 @@ paired with a repayment trigger.
   implementation standards. Phase 8 repaid the remaining Python standard files
   and added the Python standards index. Phase 9 repaid all FastAPI standard
   files and added the FastAPI standards index. Phase 10 repaid all domain
-  modeling standard files and added the domain standards index.
+  modeling standard files and added the domain standards index. Phase 11 repaid
+  the architecture style and decision standard files and added the architecture
+  standards index.
 - Risk: Future agents may mistake skeletal pages for authoritative guidance.
 - Owner: Technical Writer.
 - Repayment trigger: Each topic must be expanded before it is referenced as a

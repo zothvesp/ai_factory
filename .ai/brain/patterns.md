@@ -132,3 +132,20 @@ AI-assisted modernization.
   through `domain/README.md` before changing framework or persistence code.
 - Owner: Software Architect.
 - Review trigger: Revisit when architecture style standards are expanded.
+
+## 2026-06-28 - Structural Decisions Need Routing and Records
+
+- Context: Phase 11 completed architecture standards for layers,
+  ports/adapters, persistence, API contracts, async workflows, messaging,
+  diagrams, and ADRs.
+- Decision: Agents should route structural questions through
+  `architecture/README.md` and record durable trade-offs in ADRs when a change
+  affects dependency direction, data ownership, integration contracts,
+  deployment behavior, or cross-team coordination.
+- Rationale: Architecture drift usually starts as undocumented exceptions.
+  Explicit routing and ADRs keep exceptions visible, reviewed, and reversible.
+- Impact: Architect, Backend, Reviewer, Security, QA, and DevOps agents should
+  cite the relevant architecture standard before accepting structural changes.
+- Owner: Software Architect.
+- Review trigger: Revisit when deployment, operations, or governance standards
+  are expanded.
