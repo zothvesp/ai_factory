@@ -212,3 +212,18 @@ AI-assisted modernization.
 - Owner: QA Engineer.
 - Review trigger: Revisit when delivery checklists and CI standards are
   expanded.
+
+## 2026-06-30 - Delivery Gates Require Evidence
+
+- Context: Phase 16 completed delivery checklists for readiness, done, security,
+  release, deployment, and the checklist index.
+- Decision: Agents should treat checklist items as evidence gates and must
+  report missing verification, accepted exceptions, and residual risk before
+  closing work.
+- Rationale: Checklists prevent phase closure based on activity alone and make
+  safety, release, and deployment assumptions visible.
+- Impact: All delivery agents should route phase closure through
+  `checklists/README.md` and update Project Brain when gates reveal new debt,
+  risks, or decisions.
+- Owner: CTO.
+- Review trigger: Revisit when prompt templates and CI standards are expanded.

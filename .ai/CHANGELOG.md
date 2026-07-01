@@ -2,6 +2,20 @@
 
 All notable changes to the AI Engineering Operating System are recorded here.
 
+## 2026-06-30 - Phase 16
+
+### Added
+
+- Delivery checklist index with routing, severity, and gate usage guidance.
+- Production delivery checklists for Definition of Ready, Definition of Done,
+  security review, release, and deployment.
+- Phase 16 manifest completion entries.
+
+### Changed
+
+- Updated Project Brain and phase state for delivery checklist closure.
+- Updated next task to prioritize prompt templates.
+
 ## 2026-06-30 - Phase 15
 
 ### Added

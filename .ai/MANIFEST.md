@@ -6,6 +6,21 @@ primary owner role, and the quality gates that apply before changes are accepted
 
 ## Phase Status
 
+### Phase 16 Scope
+
+Phase 16 completes the delivery checklist reference set:
+
+- delivery checklist index;
+- Definition of Ready;
+- Definition of Done;
+- security review;
+- release;
+- deployment.
+
+Together with the previously completed code review and architecture review
+checklists, these gates define how agents prove readiness, completion, security,
+release, and deployment safety.
+
 ### Phase 15 Scope
 
 Phase 15 completes the measurement standards reference set:
@@ -430,6 +445,12 @@ expanded in a later phase.
 | Duplication Metrics | `metrics/duplication.md` | Phase 15 |
 | Performance Metrics | `metrics/performance.md` | Phase 15 |
 | Maintainability Metrics | `metrics/maintainability.md` | Phase 15 |
+| Delivery Checklist Index | `checklists/README.md` | Phase 16 |
+| Definition of Ready | `checklists/definition-of-ready.md` | Phase 16 |
+| Definition of Done | `checklists/definition-of-done.md` | Phase 16 |
+| Security Review Checklist | `checklists/security-review.md` | Phase 16 |
+| Release Checklist | `checklists/release.md` | Phase 16 |
+| Deployment Checklist | `checklists/deployment.md` | Phase 16 |
 
 ## Change Control
 
