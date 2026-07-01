@@ -6,6 +6,22 @@ primary owner role, and the quality gates that apply before changes are accepted
 
 ## Phase Status
 
+### Phase 21 Scope
+
+Phase 21 completes the Goal Engineering support reference set:
+
+- Goal Engineering standards index;
+- assumptions;
+- constraints;
+- risks;
+- KPIs;
+- exit criteria;
+- goal template.
+
+These standards complete the goal framework so future agents can define task
+intent, uncertainty, limits, risks, measurement, and stop conditions without
+skeletal templates.
+
 ### Phase 20 Scope
 
 Phase 20 completes the remaining Project Brain category standards:
@@ -553,6 +569,13 @@ expanded in a later phase.
 | Lessons Learned Brain | `brain/lessons.md` | Phase 20 |
 | Dependencies Brain | `brain/dependencies.md` | Phase 20 |
 | Unresolved Questions Brain | `brain/unresolved.md` | Phase 20 |
+| Goal Engineering Standards Index | `goals/README.md` | Phase 21 |
+| Assumptions | `goals/assumptions.md` | Phase 21 |
+| Goal Constraints | `goals/constraints.md` | Phase 21 |
+| Goal Risks | `goals/risks.md` | Phase 21 |
+| KPIs | `goals/kpis.md` | Phase 21 |
+| Exit Criteria | `goals/exit-criteria.md` | Phase 21 |
+| Goal Template | `goals/goal-template.md` | Phase 21 |
 
 ## Change Control
 

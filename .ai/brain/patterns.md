@@ -287,3 +287,19 @@ AI-assisted modernization.
   closing work that discovers durable knowledge.
 - Owner: Technical Writer.
 - Review trigger: Revisit when knowledge automation is added.
+
+## 2026-06-30 - Goals Make AI Work Reviewable
+
+- Context: Phase 21 completed Goal Engineering support standards for
+  assumptions, constraints, risks, KPIs, exit criteria, goal templates, and the
+  goal standards index.
+- Decision: Agents should use `goals/README.md` and the root goal framework
+  before substantial work, then carry assumptions, constraints, risks, metrics,
+  and exit criteria through execution.
+- Rationale: Without explicit goals and stop conditions, AI work drifts into
+  unbounded generation or premature closure.
+- Impact: All agents should treat goal records as the start of disciplined
+  engineering work.
+- Owner: Product Manager.
+- Review trigger: Revisit when repository validation or agent orchestration is
+  added.

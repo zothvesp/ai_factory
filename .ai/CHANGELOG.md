@@ -2,6 +2,22 @@
 
 All notable changes to the AI Engineering Operating System are recorded here.
 
+## 2026-06-30 - Phase 21
+
+### Added
+
+- Goal Engineering standards index.
+- Production Goal Engineering support standards for assumptions, constraints,
+  risks, KPIs, exit criteria, and goal template.
+- Phase 21 manifest completion entries.
+
+### Changed
+
+- Updated Project Brain and phase state for Goal Engineering support closure.
+- Closed the skeletal topic document debt after verifying the full `.ai` tree
+  has no remaining skeletal markers.
+- Updated next task to prioritize repository hardening and validation.
+
 ## 2026-06-30 - Phase 20
 
 ### Added

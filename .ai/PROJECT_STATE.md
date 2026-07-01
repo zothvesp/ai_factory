@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-Phase 20: Project Brain category standards.
+Phase 21: Goal Engineering support standards.
 
 ## Status
 
@@ -172,13 +172,22 @@ Ready for review.
 - Updated Project Brain with persistent knowledge governance guidance and
   reduced the documentation debt scope.
 - Updated manifest, next task, and changelog for Phase 20 closure.
+- Added the Goal Engineering standards index.
+- Expanded assumptions, constraints, risks, KPIs, exit criteria, and goal
+  template into production-quality Goal Engineering support standards.
+- Completed all Goal Engineering files currently present in the repository.
+- Verified the full `.ai` tree has no remaining skeletal "Document standards
+  and decisions" or "Required Sections" markers.
+- Updated Project Brain with goal discipline guidance and closed the skeletal
+  topic document debt.
+- Updated manifest, next task, and changelog for Phase 21 closure.
 
 ## Evidence
 
 - Documentation is organized under `.ai/`.
 - Phase files exist: `README.md`, `MANIFEST.md`, `PROJECT_STATE.md`,
   `NEXT_TASK.md`, and `CHANGELOG.md`.
-- Phase 2 through Phase 20 completed standards are listed in `MANIFEST.md`.
+- Phase 2 through Phase 21 completed standards are listed in `MANIFEST.md`.
 - Code review and architecture review now route maintainability findings through
   completed smell and anti-pattern indexes.
 - Engineering principle documents now explain the rationale behind core review
@@ -221,6 +230,10 @@ Ready for review.
   exit criteria, and checklists for core execution loops.
 - Project Brain category pages now define entry formats, ownership, update
   triggers, review rules, and examples for durable knowledge.
+- `goals/README.md` now routes Goal Engineering support across assumptions,
+  constraints, risks, KPIs, exit criteria, goal template, and the root goal
+  framework.
+- Full `.ai` placeholder scan is clean.
 - The Git remote target is `git@github.com:zothvesp/ai_factory.git`.
 
 ## Known Constraints
@@ -228,15 +241,13 @@ Ready for review.
 - The workspace contains an empty read-only `.git` directory, so normal local
   Git metadata cannot be stored at `.git`. Publishing must use an external Git
   directory unless the filesystem mount is changed.
-- Many pre-existing documents outside completed governance, executive, loop,
-  Project Brain, role, architecture, clean-code, pattern, product, metrics,
-  checklist, prompt, smell, anti-pattern, engineering principle, Python,
-  FastAPI, and domain packs remain skeletal backlog items. They are not treated
-  as completed standards until expanded according to the manifest completion
-  rules.
+- The prior skeletal-document backlog has been repaid for all current `.ai`
+  Markdown files. Future new documents must still satisfy the manifest
+  completion rules before being listed as completed standards.
 
 ## Review Questions
 
-- Should Phase 21 prioritize Goal Engineering subpages or repository automation?
+- Should Phase 22 prioritize repository automation, CI validation, or publishing
+  workflow for the AI-OS?
 - Should the legacy application source files remain in this repository, or
   should the AI-OS be separated into a documentation-only repository?

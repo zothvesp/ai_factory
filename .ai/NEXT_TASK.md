@@ -1,47 +1,42 @@
 # Next Task
 
-## Phase 21 Recommendation
+## Phase 22 Recommendation
 
-Expand Goal Engineering subpages so assumptions, constraints, KPIs, risks,
-exit criteria, and reusable goal templates are complete.
+Add repository hardening and validation so the AI-OS can prove documentation
+quality automatically and prepare for ongoing maintenance.
 
 Recommended files:
 
-- `goals/assumptions.md`
-- `goals/constraints.md`
-- `goals/exit-criteria.md`
-- `goals/goal-template.md`
-- `goals/kpis.md`
-- `goals/risks.md`
+- `.github/workflows/ai-os-docs.yml`
+- `.ai/tools/validate-docs.md` or equivalent documented validation contract
+- `.ai/README.md`
+- `.ai/MANIFEST.md`
+- `.ai/PROJECT_STATE.md`
+- `.ai/NEXT_TASK.md`
 
 ## Goal
 
-Create production-quality Goal Engineering support standards that make every
-task goal explicit, measurable, constrained, risk-aware, and reviewable.
+Create a maintainable validation and publishing approach for the completed
+AI-OS documentation product.
 
 ## Entry Criteria
 
-- Phase 20 reviewed or accepted.
+- Phase 21 reviewed or accepted.
 - Architecture Constitution remains the source of truth for mandatory design
   rules.
-- Technical Writer, CTO, Product Manager, Software Architect, Reviewer, DevOps,
-  and Security Engineer playbooks remain role guidance.
+- CTO, DevOps and Release Manager, QA Engineer, Reviewer, Technical Writer, and
+  Security Engineer playbooks remain role guidance.
 - Goal Engineering remains the source of truth for goal discovery,
   decomposition, acceptance criteria, exit criteria, KPIs, and risks.
-- Completed executive, loop, Project Brain, product, metrics, checklists,
-  prompts, architecture, domain, clean-code, pattern, Python, FastAPI,
-  engineering, smell, and anti-pattern standards remain source-of-truth
-  references.
-- Completed governance, review, anti-pattern, smell, and engineering principle
-  documents remain examples for document completeness.
+- Completed AI-OS standards remain source-of-truth references.
+- Full `.ai` placeholder scan is clean before automation work begins.
 
 ## Exit Criteria
 
-- Each selected Goal Engineering subpage is complete.
-- Each standard includes philosophy, rules, good and bad examples, decision
-  guidance, AI guidance, review checklist, and references.
-- Goal standards define usage rules, examples, AI guidance, review checklist,
-  and references.
+- Validation rules are documented and, where practical, automated.
+- CI or local validation checks for skeletal markers, broken required files, and
+  phase metadata consistency.
+- Publishing or maintenance workflow is documented.
 - Project Brain records any newly discovered rules, recurring modernization
   risks, or remaining debt.
 - `MANIFEST.md`, `PROJECT_STATE.md`, `NEXT_TASK.md`, and `CHANGELOG.md` are
