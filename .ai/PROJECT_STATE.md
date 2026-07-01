@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-Phase 16: Delivery checklists.
+Phase 17: Prompt templates.
 
 ## Status
 
@@ -140,13 +140,21 @@ Ready for review.
 - Updated Project Brain with evidence-gate guidance and reduced the
   documentation debt scope.
 - Updated manifest, next task, and changelog for Phase 16 closure.
+- Added the prompt template index with template rules and routing guidance.
+- Expanded analyze module, review, rewrite module, write tests, discover
+  domain, design API, security review, performance review, and generate docs
+  into production-quality prompt templates.
+- Completed all prompt template files currently present in the repository.
+- Updated Project Brain with prompt discipline guidance and reduced the
+  documentation debt scope.
+- Updated manifest, next task, and changelog for Phase 17 closure.
 
 ## Evidence
 
 - Documentation is organized under `.ai/`.
 - Phase files exist: `README.md`, `MANIFEST.md`, `PROJECT_STATE.md`,
   `NEXT_TASK.md`, and `CHANGELOG.md`.
-- Phase 2 through Phase 16 completed standards are listed in `MANIFEST.md`.
+- Phase 2 through Phase 17 completed standards are listed in `MANIFEST.md`.
 - Code review and architecture review now route maintainability findings through
   completed smell and anti-pattern indexes.
 - Engineering principle documents now explain the rationale behind core review
@@ -180,6 +188,8 @@ Ready for review.
   coverage, complexity, duplication, performance, and maintainability.
 - `checklists/README.md` now routes delivery gates across readiness, done,
   code review, architecture review, security review, release, and deployment.
+- `prompts/README.md` now routes repeatable AI work across analysis, review,
+  rewrite, tests, domain discovery, API design, security, performance, and docs.
 - The Git remote target is `git@github.com:zothvesp/ai_factory.git`.
 
 ## Known Constraints
@@ -188,13 +198,13 @@ Ready for review.
   Git metadata cannot be stored at `.git`. Publishing must use an external Git
   directory unless the filesystem mount is changed.
 - Many pre-existing documents outside completed governance, role, architecture,
-  clean-code, pattern, product, metrics, checklist, smell, anti-pattern,
-  engineering principle, Python, FastAPI, and domain packs remain skeletal
-  backlog items. They are not treated as completed standards until expanded
-  according to the manifest completion rules.
+  clean-code, pattern, product, metrics, checklist, prompt, smell,
+  anti-pattern, engineering principle, Python, FastAPI, and domain packs remain
+  skeletal backlog items. They are not treated as completed standards until
+  expanded according to the manifest completion rules.
 
 ## Review Questions
 
-- Should Phase 17 prioritize prompt templates or executive standards?
+- Should Phase 18 prioritize executive standards or loop detail pages?
 - Should the legacy application source files remain in this repository, or
   should the AI-OS be separated into a documentation-only repository?

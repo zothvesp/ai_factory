@@ -6,6 +6,24 @@ primary owner role, and the quality gates that apply before changes are accepted
 
 ## Phase Status
 
+### Phase 17 Scope
+
+Phase 17 completes the prompt template reference set:
+
+- prompt template index;
+- analyze module;
+- review;
+- rewrite module;
+- write tests;
+- discover domain;
+- design API;
+- security review;
+- performance review;
+- generate documentation.
+
+These templates define how future agents must apply goals, loops, Project
+Brain, standards, checklists, evidence, and safety gates to repeatable work.
+
 ### Phase 16 Scope
 
 Phase 16 completes the delivery checklist reference set:
@@ -451,6 +469,16 @@ expanded in a later phase.
 | Security Review Checklist | `checklists/security-review.md` | Phase 16 |
 | Release Checklist | `checklists/release.md` | Phase 16 |
 | Deployment Checklist | `checklists/deployment.md` | Phase 16 |
+| Prompt Template Index | `prompts/README.md` | Phase 17 |
+| Analyze Module Prompt | `prompts/analyze-module.md` | Phase 17 |
+| Review Prompt | `prompts/review.md` | Phase 17 |
+| Rewrite Module Prompt | `prompts/rewrite-module.md` | Phase 17 |
+| Write Tests Prompt | `prompts/write-tests.md` | Phase 17 |
+| Discover Domain Prompt | `prompts/discover-domain.md` | Phase 17 |
+| Design API Prompt | `prompts/design-api.md` | Phase 17 |
+| Security Review Prompt | `prompts/security-review.md` | Phase 17 |
+| Performance Review Prompt | `prompts/performance-review.md` | Phase 17 |
+| Generate Docs Prompt | `prompts/generate-docs.md` | Phase 17 |
 
 ## Change Control
 

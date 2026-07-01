@@ -2,6 +2,21 @@
 
 All notable changes to the AI Engineering Operating System are recorded here.
 
+## 2026-06-30 - Phase 17
+
+### Added
+
+- Prompt template index with routing, safety, and template usage guidance.
+- Production prompt templates for module analysis, review, rewrite, tests,
+  domain discovery, API design, security review, performance review, and
+  documentation generation.
+- Phase 17 manifest completion entries.
+
+### Changed
+
+- Updated Project Brain and phase state for prompt template closure.
+- Updated next task to prioritize executive standards.
+
 ## 2026-06-30 - Phase 16
 
 ### Added

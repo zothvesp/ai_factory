@@ -28,7 +28,7 @@ security, operations, or maintainability.
 - Owner: CTO.
 - Trigger: A phase attempts to complete broad categories without examples,
   review checklists, and cross-links.
-- Status: Mitigated for Phase 16.
+- Status: Mitigated for Phase 17.
 
 ## 2026-06-27 - Legacy Application Code Mixed With AI-OS
 

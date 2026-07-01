@@ -227,3 +227,18 @@ AI-assisted modernization.
   risks, or decisions.
 - Owner: CTO.
 - Review trigger: Revisit when prompt templates and CI standards are expanded.
+
+## 2026-06-30 - Prompts Must Carry the Operating System
+
+- Context: Phase 17 completed reusable prompt templates for analysis, review,
+  rewrite, tests, domain discovery, API design, security review, performance
+  review, and documentation generation.
+- Decision: Prompt templates must require goals, scope, relevant standards,
+  Project Brain updates, checklist gates, and evidence reporting.
+- Rationale: A prompt that omits AI-OS governance lets future agents bypass the
+  standards the repository exists to enforce.
+- Impact: AI Systems Engineer and Technical Writer agents should route reusable
+  prompt work through `prompts/README.md`.
+- Owner: AI Systems Engineer.
+- Review trigger: Revisit when agent orchestration or automation standards are
+  expanded.
