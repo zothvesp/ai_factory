@@ -273,3 +273,17 @@ AI-assisted modernization.
   page before starting or closing substantial work.
 - Owner: CTO.
 - Review trigger: Revisit when agent orchestration standards are expanded.
+
+## 2026-06-30 - Durable Knowledge Needs Category Discipline
+
+- Context: Phase 20 completed Project Brain category standards for business
+  rules, decisions, architecture knowledge, roadmap knowledge, lessons,
+  dependencies, and unresolved questions.
+- Decision: Agents should choose the correct Project Brain category and use its
+  entry format whenever durable knowledge changes.
+- Rationale: Persistent knowledge loses value when rules, risks, decisions,
+  questions, and lessons are mixed together without ownership or triggers.
+- Impact: All agents should use `brain/README.md` and category pages before
+  closing work that discovers durable knowledge.
+- Owner: Technical Writer.
+- Review trigger: Revisit when knowledge automation is added.

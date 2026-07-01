@@ -6,6 +6,21 @@ primary owner role, and the quality gates that apply before changes are accepted
 
 ## Phase Status
 
+### Phase 20 Scope
+
+Phase 20 completes the remaining Project Brain category standards:
+
+- business rules;
+- decisions;
+- architecture knowledge;
+- roadmap knowledge;
+- lessons learned;
+- dependencies;
+- unresolved questions.
+
+These standards define how durable knowledge is formatted, owned, reviewed, and
+converted into future action.
+
 ### Phase 19 Scope
 
 Phase 19 completes the engineering loop detail reference set:
@@ -531,6 +546,13 @@ expanded in a later phase.
 | Deployment Loop | `loops/deployment.md` | Phase 19 |
 | Documentation Loop | `loops/documentation.md` | Phase 19 |
 | Retrospective Loop | `loops/retrospective.md` | Phase 19 |
+| Business Rules Brain | `brain/business-rules.md` | Phase 20 |
+| Decisions Brain | `brain/decisions.md` | Phase 20 |
+| Architecture Brain | `brain/architecture.md` | Phase 20 |
+| Roadmap Brain | `brain/roadmap.md` | Phase 20 |
+| Lessons Learned Brain | `brain/lessons.md` | Phase 20 |
+| Dependencies Brain | `brain/dependencies.md` | Phase 20 |
+| Unresolved Questions Brain | `brain/unresolved.md` | Phase 20 |
 
 ## Change Control
 

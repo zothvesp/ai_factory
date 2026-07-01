@@ -2,6 +2,21 @@
 
 All notable changes to the AI Engineering Operating System are recorded here.
 
+## 2026-06-30 - Phase 20
+
+### Added
+
+- Production Project Brain category standards for business rules, decisions,
+  architecture knowledge, roadmap knowledge, lessons learned, dependencies, and
+  unresolved questions.
+- Phase 20 manifest completion entries.
+
+### Changed
+
+- Updated Project Brain and phase state for persistent knowledge category
+  closure.
+- Updated next task to prioritize Goal Engineering subpages.
+
 ## 2026-06-30 - Phase 19
 
 ### Added

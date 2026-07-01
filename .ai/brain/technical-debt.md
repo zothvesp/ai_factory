@@ -41,7 +41,8 @@ paired with a repayment trigger.
   the remaining checklist files and added the delivery checklist index. Phase
   17 repaid all prompt template files and added the prompt template index.
   Phase 18 repaid all executive standard files and added the executive standards
-  index. Phase 19 repaid all engineering loop detail files.
+  index. Phase 19 repaid all engineering loop detail files. Phase 20 repaid the
+  remaining Project Brain category files.
 - Risk: Future agents may mistake skeletal pages for authoritative guidance.
 - Owner: Technical Writer.
 - Repayment trigger: Each topic must be expanded before it is referenced as a
