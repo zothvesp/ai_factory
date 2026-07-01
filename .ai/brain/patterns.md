@@ -196,3 +196,19 @@ AI-assisted modernization.
 - Owner: Product Manager.
 - Review trigger: Revisit when delivery checklists and prompt templates are
   expanded.
+
+## 2026-06-30 - Metrics Are Signals, Not Goals
+
+- Context: Phase 15 completed standards for quality, coverage, complexity,
+  duplication, performance, maintainability, and the metrics index.
+- Decision: Agents should interpret metrics as evidence tied to risk,
+  thresholds, trends, and product or engineering goals rather than as isolated
+  targets.
+- Rationale: Metric chasing can weaken tests, create superficial refactors, or
+  optimize low-value paths. Review quality improves when metrics are connected
+  to outcomes and action.
+- Impact: QA, Reviewer, Performance, Product, Architect, and DevOps agents
+  should route metric findings through `metrics/README.md`.
+- Owner: QA Engineer.
+- Review trigger: Revisit when delivery checklists and CI standards are
+  expanded.

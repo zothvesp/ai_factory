@@ -6,6 +6,21 @@ primary owner role, and the quality gates that apply before changes are accepted
 
 ## Phase Status
 
+### Phase 15 Scope
+
+Phase 15 completes the measurement standards reference set:
+
+- metrics standards index;
+- quality metrics;
+- coverage metrics;
+- complexity metrics;
+- duplication metrics;
+- performance metrics;
+- maintainability metrics.
+
+These standards define how AI agents collect, interpret, and act on engineering
+metrics without reducing quality review to blind score chasing.
+
 ### Phase 14 Scope
 
 Phase 14 completes the product standards reference set:
@@ -408,6 +423,13 @@ expanded in a later phase.
 | User Journeys | `product/user-journeys.md` | Phase 14 |
 | Acceptance Criteria | `product/acceptance-criteria.md` | Phase 14 |
 | Non-Functional Requirements | `product/nfrs.md` | Phase 14 |
+| Metrics Standards Index | `metrics/README.md` | Phase 15 |
+| Quality Metrics | `metrics/quality.md` | Phase 15 |
+| Coverage Metrics | `metrics/coverage.md` | Phase 15 |
+| Complexity Metrics | `metrics/complexity.md` | Phase 15 |
+| Duplication Metrics | `metrics/duplication.md` | Phase 15 |
+| Performance Metrics | `metrics/performance.md` | Phase 15 |
+| Maintainability Metrics | `metrics/maintainability.md` | Phase 15 |
 
 ## Change Control
 

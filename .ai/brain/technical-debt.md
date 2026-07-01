@@ -36,7 +36,8 @@ paired with a repayment trigger.
   standards index. Phase 12 repaid all clean-code standard files and added the
   clean-code standards index. Phase 13 repaid all design pattern standard files
   and added the design pattern standards index. Phase 14 repaid all product
-  standard files and added the product standards index.
+  standard files and added the product standards index. Phase 15 repaid all
+  metrics standard files and added the metrics standards index.
 - Risk: Future agents may mistake skeletal pages for authoritative guidance.
 - Owner: Technical Writer.
 - Repayment trigger: Each topic must be expanded before it is referenced as a

@@ -2,7 +2,7 @@
 
 ## Current Phase
 
-Phase 14: Product standards.
+Phase 15: Measurement standards.
 
 ## Status
 
@@ -125,13 +125,21 @@ Ready for review.
 - Updated Project Brain with product intent and acceptance guidance and reduced
   the documentation debt scope.
 - Updated manifest, next task, and changelog for Phase 14 closure.
+- Added the metrics standards index with severity model, routing decision tree,
+  and review usage guidance.
+- Expanded quality, coverage, complexity, duplication, performance, and
+  maintainability into production-quality measurement standards.
+- Completed all metrics standard files currently present in the repository.
+- Updated Project Brain with metrics-as-signals guidance and reduced the
+  documentation debt scope.
+- Updated manifest, next task, and changelog for Phase 15 closure.
 
 ## Evidence
 
 - Documentation is organized under `.ai/`.
 - Phase files exist: `README.md`, `MANIFEST.md`, `PROJECT_STATE.md`,
   `NEXT_TASK.md`, and `CHANGELOG.md`.
-- Phase 2 through Phase 14 completed standards are listed in `MANIFEST.md`.
+- Phase 2 through Phase 15 completed standards are listed in `MANIFEST.md`.
 - Code review and architecture review now route maintainability findings through
   completed smell and anti-pattern indexes.
 - Engineering principle documents now explain the rationale behind core review
@@ -161,6 +169,8 @@ Ready for review.
   Repository, Factory, Strategy, Decorator, Facade, Builder, and Observer.
 - `product/README.md` now routes product decisions across PRDs, features,
   epics, stories, personas, use cases, journeys, acceptance criteria, and NFRs.
+- `metrics/README.md` now routes measurement decisions across quality,
+  coverage, complexity, duplication, performance, and maintainability.
 - The Git remote target is `git@github.com:zothvesp/ai_factory.git`.
 
 ## Known Constraints
@@ -169,13 +179,13 @@ Ready for review.
   Git metadata cannot be stored at `.git`. Publishing must use an external Git
   directory unless the filesystem mount is changed.
 - Many pre-existing documents outside completed governance, role, architecture,
-  clean-code, pattern, product, review, smell, anti-pattern, engineering
-  principle, Python, FastAPI, and domain packs remain skeletal backlog items.
-  They are not treated as completed standards until expanded according to the
-  manifest completion rules.
+  clean-code, pattern, product, metrics, review, smell, anti-pattern,
+  engineering principle, Python, FastAPI, and domain packs remain skeletal
+  backlog items. They are not treated as completed standards until expanded
+  according to the manifest completion rules.
 
 ## Review Questions
 
-- Should Phase 15 prioritize measurement standards or delivery checklists?
+- Should Phase 16 prioritize delivery checklists or prompt templates?
 - Should the legacy application source files remain in this repository, or
   should the AI-OS be separated into a documentation-only repository?

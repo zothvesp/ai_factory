@@ -2,6 +2,20 @@
 
 All notable changes to the AI Engineering Operating System are recorded here.
 
+## 2026-06-30 - Phase 15
+
+### Added
+
+- Metrics standards index with routing, severity, and review usage guidance.
+- Production measurement standards for quality, coverage, complexity,
+  duplication, performance, and maintainability.
+- Phase 15 manifest completion entries.
+
+### Changed
+
+- Updated Project Brain and phase state for measurement standards closure.
+- Updated next task to prioritize delivery checklists.
+
 ## 2026-06-30 - Phase 14
 
 ### Added
