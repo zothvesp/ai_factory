@@ -6,6 +6,25 @@ primary owner role, and the quality gates that apply before changes are accepted
 
 ## Phase Status
 
+### Phase 14 Scope
+
+Phase 14 completes the product standards reference set:
+
+- product standards index;
+- Product Requirements Documents;
+- features;
+- epics;
+- stories;
+- personas;
+- use cases;
+- user journeys;
+- acceptance criteria;
+- non-functional requirements.
+
+These standards define how AI agents connect modernization work to product
+intent, stakeholders, measurable outcomes, acceptance evidence, and quality
+attributes.
+
 ### Phase 13 Scope
 
 Phase 13 completes the design pattern standards reference set:
@@ -379,6 +398,16 @@ expanded in a later phase.
 | Facade Pattern | `patterns/facade.md` | Phase 13 |
 | Builder Pattern | `patterns/builder.md` | Phase 13 |
 | Observer Pattern | `patterns/observer.md` | Phase 13 |
+| Product Standards Index | `product/README.md` | Phase 14 |
+| Product Requirements Document | `product/prd.md` | Phase 14 |
+| Features | `product/features.md` | Phase 14 |
+| Epics | `product/epics.md` | Phase 14 |
+| Stories | `product/stories.md` | Phase 14 |
+| Personas | `product/personas.md` | Phase 14 |
+| Use Cases | `product/use-cases.md` | Phase 14 |
+| User Journeys | `product/user-journeys.md` | Phase 14 |
+| Acceptance Criteria | `product/acceptance-criteria.md` | Phase 14 |
+| Non-Functional Requirements | `product/nfrs.md` | Phase 14 |
 
 ## Change Control
 

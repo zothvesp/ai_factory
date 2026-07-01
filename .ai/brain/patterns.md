@@ -181,3 +181,18 @@ AI-assisted modernization.
 - Owner: Software Architect.
 - Review trigger: Revisit when prompt templates or automated architecture
   review standards are expanded.
+
+## 2026-06-30 - Product Intent Gates Engineering Work
+
+- Context: Phase 14 completed product standards for PRDs, features, epics,
+  stories, personas, use cases, journeys, acceptance criteria, and NFRs.
+- Decision: Agents should not begin implementation or architecture design for
+  product-affecting work until product intent, constraints, stakeholders,
+  acceptance criteria, and relevant NFRs are explicit.
+- Rationale: Modernization work without product intent optimizes code while
+  risking user value, compliance, supportability, and release quality.
+- Impact: Product, Architect, Backend, QA, Reviewer, and Technical Writer agents
+  should route readiness through `product/README.md` and Goal Engineering.
+- Owner: Product Manager.
+- Review trigger: Revisit when delivery checklists and prompt templates are
+  expanded.
