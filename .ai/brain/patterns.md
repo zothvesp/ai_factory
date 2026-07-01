@@ -165,3 +165,19 @@ AI-assisted modernization.
 - Owner: Reviewer.
 - Review trigger: Revisit when prompt templates or automated review standards
   are expanded.
+
+## 2026-06-30 - Patterns Must Answer a Real Design Force
+
+- Context: Phase 13 completed standards for Adapter, Repository, Factory,
+  Strategy, Decorator, Facade, Builder, Observer, and the pattern index.
+- Decision: Agents should introduce a design pattern only after naming the
+  recurring design force, boundary, variation, or construction complexity it
+  solves.
+- Rationale: Pattern-first design creates unnecessary indirection. Force-first
+  design keeps patterns aligned with KISS, YAGNI, dependency direction, and
+  testability.
+- Impact: Architect, Backend, and Reviewer agents should route pattern choices
+  through `patterns/README.md` and reject decorative pattern use.
+- Owner: Software Architect.
+- Review trigger: Revisit when prompt templates or automated architecture
+  review standards are expanded.

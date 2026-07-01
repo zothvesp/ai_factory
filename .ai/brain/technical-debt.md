@@ -34,7 +34,8 @@ paired with a repayment trigger.
   modeling standard files and added the domain standards index. Phase 11 repaid
   the architecture style and decision standard files and added the architecture
   standards index. Phase 12 repaid all clean-code standard files and added the
-  clean-code standards index.
+  clean-code standards index. Phase 13 repaid all design pattern standard files
+  and added the design pattern standards index.
 - Risk: Future agents may mistake skeletal pages for authoritative guidance.
 - Owner: Technical Writer.
 - Repayment trigger: Each topic must be expanded before it is referenced as a

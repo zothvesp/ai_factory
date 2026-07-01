@@ -1,49 +1,53 @@
 # Next Task
 
-## Phase 13 Recommendation
+## Phase 14 Recommendation
 
-Expand design pattern standards so agents can select proven implementation
-structures without overengineering or violating the architecture constitution.
+Expand product standards so engineering work starts from clear user value,
+constraints, acceptance criteria, and non-functional requirements.
 
 Recommended files:
 
-- `patterns/README.md`
-- `patterns/adapter.md`
-- `patterns/repository.md`
-- `patterns/factory.md`
-- `patterns/strategy.md`
-- `patterns/decorator.md`
-- `patterns/facade.md`
-- `patterns/builder.md`
-- `patterns/observer.md`
+- `product/README.md`
+- `product/prd.md`
+- `product/features.md`
+- `product/epics.md`
+- `product/stories.md`
+- `product/personas.md`
+- `product/use-cases.md`
+- `product/user-journeys.md`
+- `product/acceptance-criteria.md`
+- `product/nfrs.md`
 
 ## Goal
 
-Create production-quality pattern standards that explain when to use common
-design patterns, when to avoid them, and how they fit Clean Architecture,
-Hexagonal Architecture, domain modeling, and Python implementation standards.
+Create production-quality product standards that define how AI agents discover,
+shape, validate, and govern modernization work from product intent through
+acceptance and non-functional requirements.
 
 ## Entry Criteria
 
-- Phase 12 reviewed or accepted.
+- Phase 13 reviewed or accepted.
 - Architecture Constitution remains the source of truth for mandatory design
   rules.
-- Software Architect, Backend Engineer, Reviewer, and QA Engineer playbooks
-  remain role guidance.
-- Completed architecture, domain, clean-code, Python, FastAPI, engineering,
-  smell, and anti-pattern standards remain source-of-truth references.
+- CEO, Product Manager, Software Architect, QA Engineer, Reviewer, and Technical
+  Writer playbooks remain role guidance.
+- Goal Engineering remains the source of truth for goal discovery,
+  decomposition, acceptance criteria, exit criteria, KPIs, and risks.
+- Completed architecture, domain, clean-code, pattern, Python, FastAPI,
+  engineering, smell, and anti-pattern standards remain source-of-truth
+  references.
 - Completed governance, review, anti-pattern, smell, and engineering principle
   documents remain examples for document completeness.
 
 ## Exit Criteria
 
-- Each selected pattern standard is complete.
-- `patterns/README.md` provides routing, severity, and review usage guidance
-  for design patterns.
+- Each selected product standard is complete.
+- `product/README.md` provides routing, severity, and review usage guidance for
+  product standards.
 - Each standard includes philosophy, rules, good and bad examples, decision
   guidance, AI guidance, review checklist, and references.
-- Architecture review, code review, Software Architect, Backend Engineer, and
-  Reviewer playbooks remain aligned with pattern standards.
+- Definition of Ready, Definition of Done, Product Manager, QA, Architect, and
+  Technical Writer playbooks remain aligned with product standards.
 - Project Brain records any newly discovered rules, recurring modernization
   risks, or remaining debt.
 - `MANIFEST.md`, `PROJECT_STATE.md`, `NEXT_TASK.md`, and `CHANGELOG.md` are

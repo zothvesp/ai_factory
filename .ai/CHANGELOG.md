@@ -2,6 +2,21 @@
 
 All notable changes to the AI Engineering Operating System are recorded here.
 
+## 2026-06-30 - Phase 13
+
+### Added
+
+- Design pattern standards index with routing, severity, and review usage
+  guidance.
+- Production pattern standards for Adapter, Repository, Factory, Strategy,
+  Decorator, Facade, Builder, and Observer.
+- Phase 13 manifest completion entries.
+
+### Changed
+
+- Updated Project Brain and phase state for design pattern standards closure.
+- Updated next task to prioritize product standards.
+
 ## 2026-06-28 - Phase 12
 
 ### Added

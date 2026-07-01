@@ -6,6 +6,24 @@ primary owner role, and the quality gates that apply before changes are accepted
 
 ## Phase Status
 
+### Phase 13 Scope
+
+Phase 13 completes the design pattern standards reference set:
+
+- design pattern standards index;
+- Adapter;
+- Repository;
+- Factory;
+- Strategy;
+- Decorator;
+- Facade;
+- Builder;
+- Observer.
+
+These standards define when common patterns are appropriate, when they are
+overengineering, and how they fit architecture, domain, clean-code, and Python
+modernization standards.
+
 ### Phase 12 Scope
 
 Phase 12 completes the clean-code standards reference set:
@@ -352,6 +370,15 @@ expanded in a later phase.
 | Testing | `clean-code/testing.md` | Phase 12 |
 | Refactoring | `clean-code/refactoring.md` | Phase 12 |
 | Clean Code Heuristics | `clean-code/heuristics.md` | Phase 12 |
+| Design Pattern Standards Index | `patterns/README.md` | Phase 13 |
+| Adapter Pattern | `patterns/adapter.md` | Phase 13 |
+| Repository Pattern | `patterns/repository.md` | Phase 13 |
+| Factory Pattern | `patterns/factory.md` | Phase 13 |
+| Strategy Pattern | `patterns/strategy.md` | Phase 13 |
+| Decorator Pattern | `patterns/decorator.md` | Phase 13 |
+| Facade Pattern | `patterns/facade.md` | Phase 13 |
+| Builder Pattern | `patterns/builder.md` | Phase 13 |
+| Observer Pattern | `patterns/observer.md` | Phase 13 |
 
 ## Change Control
 
