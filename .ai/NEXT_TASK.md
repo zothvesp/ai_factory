@@ -1,51 +1,47 @@
 # Next Task
 
-## Phase 19 Recommendation
+## Phase 20 Recommendation
 
-Expand engineering loop detail pages so agents can execute analysis, design,
-implementation, testing, review, deployment, documentation, and retrospective
-work with consistent entry criteria, activities, outputs, exit criteria, and
-checklists.
+Expand Project Brain subpages so durable knowledge categories have complete
+entry formats, ownership, update rules, and review guidance.
 
 Recommended files:
 
-- `loops/analysis.md`
-- `loops/design.md`
-- `loops/implementation.md`
-- `loops/testing.md`
-- `loops/review.md`
-- `loops/deployment.md`
-- `loops/documentation.md`
-- `loops/retrospective.md`
+- `brain/business-rules.md`
+- `brain/decisions.md`
+- `brain/architecture.md`
+- `brain/roadmap.md`
+- `brain/lessons.md`
+- `brain/dependencies.md`
+- `brain/unresolved.md`
 
 ## Goal
 
-Create production-quality loop standards that define repeatable execution
-cycles for every major engineering activity.
+Create production-quality Project Brain category standards that make persistent
+knowledge updates consistent, reviewable, and actionable.
 
 ## Entry Criteria
 
-- Phase 18 reviewed or accepted.
+- Phase 19 reviewed or accepted.
 - Architecture Constitution remains the source of truth for mandatory design
   rules.
-- CTO, Product Manager, Software Architect, Backend Engineer, QA Engineer,
-  Reviewer, Security Engineer, DevOps, and Technical Writer playbooks remain
-  role guidance.
+- Technical Writer, CTO, Product Manager, Software Architect, Reviewer, DevOps,
+  and Security Engineer playbooks remain role guidance.
 - Goal Engineering remains the source of truth for goal discovery,
   decomposition, acceptance criteria, exit criteria, KPIs, and risks.
-- Completed executive, product, metrics, checklists, prompts, architecture,
-  domain, clean-code, pattern, Python, FastAPI, engineering, smell, and
-  anti-pattern standards remain source-of-truth references.
+- Completed executive, loop, product, metrics, checklists, prompts,
+  architecture, domain, clean-code, pattern, Python, FastAPI, engineering,
+  smell, and anti-pattern standards remain source-of-truth references.
 - Completed governance, review, anti-pattern, smell, and engineering principle
   documents remain examples for document completeness.
 
 ## Exit Criteria
 
-- Each selected loop standard is complete.
+- Each selected Project Brain subpage is complete.
 - Each standard includes philosophy, rules, good and bad examples, decision
   guidance, AI guidance, review checklist, and references.
-- Loop standards define entry criteria, activities, outputs, exit criteria, and
-  checklists.
+- Brain category standards define entry format, ownership, update triggers,
+  review rules, and examples.
 - Project Brain records any newly discovered rules, recurring modernization
   risks, or remaining debt.
 - `MANIFEST.md`, `PROJECT_STATE.md`, `NEXT_TASK.md`, and `CHANGELOG.md` are

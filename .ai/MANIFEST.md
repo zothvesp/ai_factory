@@ -6,6 +6,22 @@ primary owner role, and the quality gates that apply before changes are accepted
 
 ## Phase Status
 
+### Phase 19 Scope
+
+Phase 19 completes the engineering loop detail reference set:
+
+- Analysis Loop;
+- Design Loop;
+- Implementation Loop;
+- Testing Loop;
+- Review Loop;
+- Deployment Loop;
+- Documentation Loop;
+- Retrospective Loop.
+
+These standards define repeatable entry criteria, activities, outputs, exit
+criteria, and checklists for the core execution loops.
+
 ### Phase 18 Scope
 
 Phase 18 completes the executive standards reference set:
@@ -507,6 +523,14 @@ expanded in a later phase.
 | Success Metrics | `executive/success-metrics.md` | Phase 18 |
 | Release Strategy | `executive/release-strategy.md` | Phase 18 |
 | Executive Glossary | `executive/glossary.md` | Phase 18 |
+| Analysis Loop | `loops/analysis.md` | Phase 19 |
+| Design Loop | `loops/design.md` | Phase 19 |
+| Implementation Loop | `loops/implementation.md` | Phase 19 |
+| Testing Loop | `loops/testing.md` | Phase 19 |
+| Review Loop | `loops/review.md` | Phase 19 |
+| Deployment Loop | `loops/deployment.md` | Phase 19 |
+| Documentation Loop | `loops/documentation.md` | Phase 19 |
+| Retrospective Loop | `loops/retrospective.md` | Phase 19 |
 
 ## Change Control
 

@@ -258,3 +258,18 @@ AI-assisted modernization.
 - Owner: CEO.
 - Review trigger: Revisit when Project Brain roadmap and governance subpages are
   expanded.
+
+## 2026-06-30 - Loops Make Work Executable
+
+- Context: Phase 19 completed detail pages for Analysis, Design,
+  Implementation, Testing, Review, Deployment, Documentation, and Retrospective
+  loops.
+- Decision: Agents should select and execute loops with explicit entry
+  criteria, activities, outputs, exit criteria, and checklists rather than
+  treating tasks as one-step generation.
+- Rationale: Loops turn goals into evidence and prevent premature
+  implementation, skipped review, and undocumented learning.
+- Impact: All agents should use `loops/README.md` and the relevant loop detail
+  page before starting or closing substantial work.
+- Owner: CTO.
+- Review trigger: Revisit when agent orchestration standards are expanded.
