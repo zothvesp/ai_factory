@@ -2,6 +2,20 @@
 
 All notable changes to the AI Engineering Operating System are recorded here.
 
+## 2026-06-30 - Phase 18
+
+### Added
+
+- Executive standards index with strategic routing and authority guidance.
+- Production executive standards for mission, vision, charter, stakeholders,
+  constraints, roadmap, success metrics, release strategy, and glossary.
+- Phase 18 manifest completion entries.
+
+### Changed
+
+- Updated Project Brain and phase state for executive standards closure.
+- Updated next task to prioritize loop detail pages.
+
 ## 2026-06-30 - Phase 17
 
 ### Added

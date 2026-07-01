@@ -6,6 +6,24 @@ primary owner role, and the quality gates that apply before changes are accepted
 
 ## Phase Status
 
+### Phase 18 Scope
+
+Phase 18 completes the executive standards reference set:
+
+- executive standards index;
+- mission;
+- vision;
+- charter;
+- stakeholders;
+- constraints;
+- roadmap;
+- success metrics;
+- release strategy;
+- executive glossary.
+
+These standards define strategic direction, authority, constraints,
+stakeholders, roadmap sequencing, success measurement, and release governance.
+
 ### Phase 17 Scope
 
 Phase 17 completes the prompt template reference set:
@@ -479,6 +497,16 @@ expanded in a later phase.
 | Security Review Prompt | `prompts/security-review.md` | Phase 17 |
 | Performance Review Prompt | `prompts/performance-review.md` | Phase 17 |
 | Generate Docs Prompt | `prompts/generate-docs.md` | Phase 17 |
+| Executive Standards Index | `executive/README.md` | Phase 18 |
+| Mission | `executive/mission.md` | Phase 18 |
+| Vision | `executive/vision.md` | Phase 18 |
+| Charter | `executive/charter.md` | Phase 18 |
+| Stakeholders | `executive/stakeholders.md` | Phase 18 |
+| Constraints | `executive/constraints.md` | Phase 18 |
+| Roadmap | `executive/roadmap.md` | Phase 18 |
+| Success Metrics | `executive/success-metrics.md` | Phase 18 |
+| Release Strategy | `executive/release-strategy.md` | Phase 18 |
+| Executive Glossary | `executive/glossary.md` | Phase 18 |
 
 ## Change Control
 

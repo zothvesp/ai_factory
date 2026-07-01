@@ -242,3 +242,19 @@ AI-assisted modernization.
 - Owner: AI Systems Engineer.
 - Review trigger: Revisit when agent orchestration or automation standards are
   expanded.
+
+## 2026-06-30 - Executive Standards Govern Direction
+
+- Context: Phase 18 completed executive standards for mission, vision, charter,
+  stakeholders, constraints, roadmap, success metrics, release strategy, and
+  glossary.
+- Decision: Agents should route strategic conflicts through
+  `executive/README.md` before changing scope, priority, release policy, or
+  accepted risk.
+- Rationale: Implementation standards cannot resolve mission, authority,
+  stakeholder, or roadmap conflicts alone.
+- Impact: CEO, CTO, Product, Architect, Release, and Technical Writer agents
+  should keep strategic decisions traceable to executive standards.
+- Owner: CEO.
+- Review trigger: Revisit when Project Brain roadmap and governance subpages are
+  expanded.
